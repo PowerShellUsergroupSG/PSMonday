@@ -1,0 +1,30 @@
+﻿# define bootstrap grid sizes for speaker list
+col_md: 6
+col_sm: 6
+col_xs: 12
+
+sponsors:
+  - name: "PowerShell.com"
+    img: "/img/sponsors/powershell.com_logo-min.png"
+    url: "https://www.powershell.com/"
+  - name: "ISESteroids"
+    img: "/img/sponsors/bannerISESteroids1.png"
+    url: "http://www.powertheshell.com/isesteroids/"
+  - name: "connmove software"
+    img: "/img/sponsors/connmove.de-min.png"
+    url: "http://connmove.eu/software/"
+  - name: "ScriptRunner"
+    img: "/img/sponsors/scriptrunner-min-h90.png"
+    url: "http://www.scriptrunner.de/en/"
+  - name: "Netz-Weise"
+    img: "/img/sponsors/netzweise-min-h90.png"
+    url: "http://www.netz-weise-it.training/"
+  - name: "Peerlyst"
+    img: "/img/sponsors/peerlyst-min-h90.png"
+    url: "https://www.peerlyst.com/"
+  - name: "PowerShellMagazine"
+    img: "/img/sponsors/PowerShellMagazine_logo-min.jpg"
+    url: "https://www.powershellmagazine.com/"
+  - name: "JetBrais"
+    img: "/img/sponsors/logo_JetBrains_1.png"
+    url: "http://www.jetbrains.com"

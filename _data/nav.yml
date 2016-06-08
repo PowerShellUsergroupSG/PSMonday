@@ -1,0 +1,37 @@
+en:
+ - name: "Home"
+   link: "#page-top"
+
+ - name: "About"
+   link: "#about"
+   
+ - name: "Speakers"
+   link: "#speakers"
+   
+ - name: "Schedule"
+   link: "#schedule"
+   
+ - name: "Register"
+   link: "#page-top"
+   
+ - name: "Venue"
+   link: "#venue"
+
+de:
+ - name: "Home"
+   link: "#page-top"
+
+ - name: "Über"
+   link: "#about"
+   
+ - name: "Referenten"
+   link: "#speakers"
+   
+ - name: "Agenda"
+   link: "#schedule"
+   
+ - name: "Registrieren"
+   link: "#page-top"
+   
+ - name: "Veranstaltungsort"
+   link: "#venue"

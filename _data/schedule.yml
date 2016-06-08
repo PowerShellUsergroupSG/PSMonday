@@ -1,0 +1,927 @@
+---
+days:
+  -
+    active: false
+    date: "19.04.2016"
+    id: preconf
+    timeSlots:
+      -
+        time: "09:00 - 12:00"
+        tracks:
+          -
+            description:
+              de: "PowerShell Remoting dient nicht nur dazu, auf Remotesystemen Code auszuführen. Es bildet die essentielle Grundlage für andere Techniken, unter anderem Workflows und DSC. In dieser Session geht es darum, was PowerShell Remoting ist, wie man es (richtig) konfiguriert, und vor allem: wie PowerShell 5 mit \'Just Enough Admin\' die Virtualisierung von Benutzerkonten ermöglicht. Damit lassen sich viele knifflige Sicherheitsherausforderungen lösen und zum Beispiel normalen Anwendern rollenbasiert die Durchführung von Admin-Aufgaben ermöglichen, ohne dass sensible Kennworte weitergegeben werden müssen."
+              en: "PowerShell Remoting dient nicht nur dazu, auf Remotesystemen Code auszuführen. Es bildet die essentielle Grundlage für andere Techniken, unter anderem Workflows und DSC. In dieser Session geht es darum, was PowerShell Remoting ist, wie man es (richtig) konfiguriert, und vor allem: wie PowerShell 5 mit \'Just Enough Admin\' die Virtualisierung von Benutzerkonten ermöglicht. Damit lassen sich viele knifflige Sicherheitsherausforderungen lösen und zum Beispiel normalen Anwendern rollenbasiert die Durchführung von Admin-Aufgaben ermöglichen, ohne dass sensible Kennworte weitergegeben werden müssen."
+            language: German
+            name: "Remoting, Just Enough Admin"
+            speaker: "Dr. Tobias Weltner"
+          -
+            description:
+              de: "In dieser Session frischt Holgr Schwichtenberg gemeinsam mit Ihnen die wesentlichen PowerShell-Techniken auf. Sie können gern Fragen mitbringen."
+              en: "In dieser Session frischt Holgr Schwichtenberg gemeinsam mit Ihnen die wesentlichen PowerShell-Techniken auf. Sie können gern Fragen mitbringen."
+            language: German
+            name: "PowerShell Refresher"
+            speaker: "Dr. Holger Schwichtenberg"
+          -
+            description:
+              de: ""
+              en: ""
+            language: German
+            name: "Desired State Configuration"
+            speaker: "Holger Voges"
+          -
+            description:
+              de: "DSC is a ‘make it so’ technology – you declare what you want the server configuration to be then PowerShell and DSC make it happen. There are a number of components in DSC you need to understand – push/pull servers; configurations; resources and mof files. In this workshop discover how to get started with DSC and how to make the most of this technology. Along the way you can take your first steps into the brave new world of devops.  DSC provides a way into ‘Infrastructure as Code’. We’ll bring everything together by implementing the DSC configurations necessary to bring a new server online. There are a lot of resources available for DSC but it may be that you want to do something for which there isn’t a resource – now you have to write your own. The easiest way to do this is to use PowerShell classes (new to PowerShell 5.0). We’ll work through creating a using a new resource."
+              en: "DSC is a ‘make it so’ technology – you declare what you want the server configuration to be then PowerShell and DSC make it happen. There are a number of components in DSC you need to understand – push/pull servers; configurations; resources and mof files. In this workshop discover how to get started with DSC and how to make the most of this technology. Along the way you can take your first steps into the brave new world of devops.  DSC provides a way into ‘Infrastructure as Code’. We’ll bring everything together by implementing the DSC configurations necessary to bring a new server online. There are a lot of resources available for DSC but it may be that you want to do something for which there isn’t a resource – now you have to write your own. The easiest way to do this is to use PowerShell classes (new to PowerShell 5.0). We’ll work through creating a using a new resource."
+            language: English
+            name: "Desired State Configuration Quick Start"
+            speaker: "Richard Siddaway"
+      -
+        time: "12:00 - 13:00"
+        tracks:
+          -
+            description:
+              de: ~
+              en: ~
+            language: ""
+            name: Mittagessen
+            span: true
+            spanLength: 4
+            speaker: ""
+      -
+        time: "13:00 - 16:00"
+        tracks:
+          -
+            description:
+              de: "Workflows und DSC unterscheiden sich stark von klassischen Skripts, und viele haben Einstiegsschwierigkeiten. Die wollen wir beheben. In dieser Session erfahren Sie die wesentlichen Ideen hinter Workflows und DSC, was beide leisten, wann sie nützlich sind (und wann nicht). Falls Sie mit Workflows und DSC also noch etwas auf Kriegsfuss stehen, werden Sie nach dieser Session einen ganz neuen und phantastisch effektiven Bereich der PowerShell erschlossen haben und bestens vorbereitet sein auf die Fachpräsentationen zu diesen Themen auf der Hauptkonferenz."
+              en: "Workflows und DSC unterscheiden sich stark von klassischen Skripts, und viele haben Einstiegsschwierigkeiten. Die wollen wir beheben. In dieser Session erfahren Sie die wesentlichen Ideen hinter Workflows und DSC, was beide leisten, wann sie nützlich sind (und wann nicht). Falls Sie mit Workflows und DSC also noch etwas auf Kriegsfuss stehen, werden Sie nach dieser Session einen ganz neuen und phantastisch effektiven Bereich der PowerShell erschlossen haben und bestens vorbereitet sein auf die Fachpräsentationen zu diesen Themen auf der Hauptkonferenz."
+            language: German
+            name: "Workflows und DSC: Was Sie schon immer wissen wollten..."
+            speaker: "Dr. Tobias Weltner"
+          -
+            description:
+              de: "Die PowerShell ist nicht nur für Administratoren, sondern auch für Softwareentwickler ein sehr hilfreiches Werkzeug. Softwareentwickler können sich damit Aufgaben im Bereich Build und Deployment oft schneller lösen als mit C#, Visual Basic oder C++. Zudem können sie Commandlets für die Administratoren erschaffen, um diesen den Arbeitsalltag zu erleichtern und Zugriff auf Funktionen des Betriebssystems geben, die die PowerShell bisher nicht mit Commandlets abdeckt."
+              en: "Die PowerShell ist nicht nur für Administratoren, sondern auch für Softwareentwickler ein sehr hilfreiches Werkzeug. Softwareentwickler können sich damit Aufgaben im Bereich Build und Deployment oft schneller lösen als mit C#, Visual Basic oder C++. Zudem können sie Commandlets für die Administratoren erschaffen, um diesen den Arbeitsalltag zu erleichtern und Zugriff auf Funktionen des Betriebssystems geben, die die PowerShell bisher nicht mit Commandlets abdeckt."
+            language: German
+            name: "PowerShell für Developer"
+            speaker: "Dr. Holger Schwichtenberg"
+          -
+            description:
+              de: ""
+              en: ""
+            language: German
+            name: "Functions und Module Inside Out"
+            speaker: "Holger Voges"
+          -
+            description:
+              de: "CIM (WMI) has been around since Windows NT 4 but has a reputation for being difficult to work with. In this deep dive you’ll learn about the new CIM API introduced in PowerShell 3.0; the differences between the WMI cmdlets and the CIM cmdlets; discovering CIM classes and getting the most from the CIM cmdlets. You’ll learn the problems of working with CIM and how you can overcome them.  CIM sessions are similar to PowerShell remoting sessions but only for use with the CIM cmdlets (so why do so many cmdlets in Windows 8,and later, have a CimSession parameter– come to the workshop and find out). CIM sessions enable you  work with remote machines and can, in some circumstances survive a reboot on the target machine. By the end of the workshop you’ll have deep understanding of CIM that will enable you get the most from this Cinderella technology."
+              en: "CIM (WMI) has been around since Windows NT 4 but has a reputation for being difficult to work with. In this deep dive you’ll learn about the new CIM API introduced in PowerShell 3.0; the differences between the WMI cmdlets and the CIM cmdlets; discovering CIM classes and getting the most from the CIM cmdlets. You’ll learn the problems of working with CIM and how you can overcome them.  CIM sessions are similar to PowerShell remoting sessions but only for use with the CIM cmdlets (so why do so many cmdlets in Windows 8,and later, have a CimSession parameter– come to the workshop and find out). CIM sessions enable you  work with remote machines and can, in some circumstances survive a reboot on the target machine. By the end of the workshop you’ll have deep understanding of CIM that will enable you get the most from this Cinderella technology."
+            language: English
+            name: "CIM Deep Dive"
+            speaker: "Richard Siddaway"
+    title:
+      de: Preconference
+      en: Preconference
+    trackHeaders:
+      -
+        title:
+          de: Zeit
+          en: Time
+      -
+        title:
+          de: "German Preconf Track 1"
+          en: "German Preconf Track 1"
+      -
+        title:
+          de: "German Preconf Track 2"
+          en: "German Preconf Track 2"
+      -
+        title:
+          de: "German Preconf Track 3"
+          en: "German Preconf Track 3"
+      -
+        title:
+          de: "English Preconf Track 4"
+          en: "English Preconf Track 4"
+  -
+
+    active: true
+    date: "20.04.2016"
+    id: day1
+    timeSlots:
+      -
+        time: "09:00 - 10:30"
+        tracks:
+          -
+            description:
+              de: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about his motifs behind the features and how they unfold Jeffreys vision of 'Monadology' that he borrowed from the great philosopher Leibniz. This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining conference and the specialty talks that follow."
+              en: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about his motifs behind the features and how they unfold Jeffreys vision of 'Monadology' that he borrowed from the great philosopher Leibniz. This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining conference and the specialty talks that follow."
+            language: English
+            name: "Keynote - 10 Years with PowerShell:<br>An evolutionary journey in the light of Leibniz and Monadology"
+            span: true
+            spanLength: 2
+            speaker: "Dr. Tobias Weltner & Jeffrey Snover"
+      -
+        time: "10:45 - 11:45"
+        tracks:
+          -
+            description:
+              de: "In this session, we’ll go beyond the GUI and look into the advanced features for debugging PowerShell including remote debugging and runspaces. There’s a lot more to debugging than F9!"
+              en: "In this session, we’ll go beyond the GUI and look into the advanced features for debugging PowerShell including remote debugging and runspaces. There’s a lot more to debugging than F9!"
+            language: English
+            name: "Debugging Deep Dive"
+            speaker: "Bruce Payette"
+          -
+            description:
+              de: "Bisher war es doch recht umständlich, objektorientiert in PowerShell-Skripte zu programmieren. In PowerShell 5.0 gibt es nun endlich Klassen. Der Vortrag erläutert die Konzepte der PowerShell-Klassen (Attribute, Methoden, Konstruktoren, Statische Mitglieder und zeigt die praktischen Einsatzgebiete der PowerShell-Klassen auf."
+              en: "Bisher war es doch recht umständlich, objektorientiert in PowerShell-Skripte zu programmieren. In PowerShell 5.0 gibt es nun endlich Klassen. Der Vortrag erläutert die Konzepte der PowerShell-Klassen (Attribute, Methoden, Konstruktoren, Statische Mitglieder und zeigt die praktischen Einsatzgebiete der PowerShell-Klassen auf."
+            language: German
+            name: "Objektorientiertes Programmieren mit der PowerShell 5.0"
+            speaker: "Dr. Holger Schwichtenberg"
+      -
+        time: "12:00 - 13:00"
+        tracks:
+          -
+            description:
+              de: Lunch
+              en: Lunch
+            language: ""
+            name: Lunch
+            span: true
+            spanLength: 2
+            speaker: ""
+      -
+        time: "13:00 - 14:00"
+        tracks:
+          -
+            description:
+              de: "Recent intrusion into the networks of organizations like Office of Personnel Management, Sony, JPMorgan Chase, and British Airways have shown that the question isn’t if your organization will be targeted, but when. With these attacks and many others in recent years, incident response teams have had to rapidly change tactics from the image-and-forget methodology to live box forensics and containment.
+              During these engagements, forensic analysts must actively track and monitor an adversary in their network while preventing the adversary from recognizing detection but most tools are not up to the job.
+              PowerShell brings the flexibility and in-memory nature to defenders to tackle live threats.
+              In this talk, I will cover how my project, PowerForensics, can provide the Digital Forensics/Incident Response community with an all in one toolset for attack response and investigation. By leveraging PowerShell’s access to the Windows API and .NET framework, PowerForensics provides investigators with a forensically sound “live”
+              investigation platform without the need to image the hard drive. I’ll cover the background and overview of PowerForensics, including how its various capabilities can facilitate the investigation of advanced actors at scale. Finally, I’ll cap off with a complex demo, showing how PowerForensics can help blue teams investigate the real attacks they’re now facing."
+              en: "Recent intrusion into the networks of organizations like Office of Personnel Management, Sony, JPMorgan Chase, and British Airways have shown that the question isn’t if your organization will be targeted, but when. With these attacks and many others in recent years, incident response teams have had to rapidly change tactics from the image-and-forget methodology to live box forensics and containment.
+              During these engagements, forensic analysts must actively track and monitor an adversary in their network while preventing the adversary from recognizing detection but most tools are not up to the job.
+              PowerShell brings the flexibility and in-memory nature to defenders to tackle live threats.
+              In this talk, I will cover how my project, PowerForensics, can provide the Digital Forensics/Incident Response community with an all in one toolset for attack response and investigation. By leveraging PowerShell’s access to the Windows API and .NET framework, PowerForensics provides investigators with a forensically sound “live”
+              investigation platform without the need to image the hard drive. I’ll cover the background and overview of PowerForensics, including how its various capabilities can facilitate the investigation of advanced actors at scale. Finally, I’ll cap off with a complex demo, showing how PowerForensics can help blue teams investigate the real attacks they’re now facing."
+            language: English
+            name: "Old Dog, New Tricks: Forensics With PowerShell"
+            speaker: "Jared Atkinson"
+          -
+            description:
+              de: "In dieser Session zeigt David, wie sich moderne grafische WPF-Benutzeroberflächen in nur wenigen Zeilen Code direkt mit PowerShell erstellen lassen. Dabei wird gezeigt, wie man XAML verwendet, Ressourcen wie Bilder oder Icons lädt, und auf Events wie Button-Klicks reagiert. Ein besonderer Schwerpunkt liegt hier auf sogenannten Bindings, die sehr viel effizienteren PowerShell-Code ermöglichen."
+              en: "In dieser Session zeigt David, wie sich moderne grafische WPF-Benutzeroberflächen in nur wenigen Zeilen Code direkt mit PowerShell erstellen lassen. Dabei wird gezeigt, wie man XAML verwendet, Ressourcen wie Bilder oder Icons lädt, und auf Events wie Button-Klicks reagiert. Ein besonderer Schwerpunkt liegt hier auf sogenannten Bindings, die sehr viel effizienteren PowerShell-Code ermöglichen."
+            language: German
+            name: "Deep Dive Powershell GUIs with XAML"
+            speaker: "David das Neves"
+      -
+        time:  "14:15 - 15:15"
+        tracks:
+          -
+            description:
+              de: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
+              en: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
+            language: English
+            name: "Building an Empire with PowerShell"
+            speaker: "Will Schroeder"
+          -
+            description:
+              de: "In 2016 wird Microsoft mit dem 'Nano Server' eine minimale Installationsoption anbieten, die ausschließlich remote administrieren lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh- und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation, untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
+              en: "In 2016 wird Microsoft mit dem 'Nano Server' eine minimale Installationsoption anbieten, die ausschließlich remote administrieren lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh- und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation, untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
+            language: German
+            name: "Administration des NANO-Servers"
+            speaker: "Thorsten Butz"
+
+      -
+        time: "15:30 - 16:30"
+        tracks:
+          -
+            description:
+              de: "This session will be an intro to DSC pull server/pull server as an Azure service, how to onboard nodes, simple example to show full workflow, complex example to include advanced features"
+              en: "This session will be an intro to DSC pull server/pull server as an Azure service, how to onboard nodes, simple example to show full workflow, complex example to include advanced features"
+            language: English
+            name: "Azure Automation DSC"
+            speaker: Ben Gelens & Aleksandar Nikolic
+          -
+            description:
+              de: "Azure Automation ist der neue Ansatz von Microsoft, mit Hilfe von Powershell Workflows regelmässig Wiederkehrende Aufgaben in großen Umgebungen zu automatisieren. Es werden sogennante Runbooks erstellt, die dann zeit- oder Ereignisgesteuert gestartet werden können. Der grafische Runbook Editor macht das Erstellen dabei auch für den Laien einfach. In dieser Session stellt Holger Voges die Grundlagen der Runbooks vor und zeigt, was Sie mit Azure Automation erreichen können."
+              en: "Azure Automation ist der neue Ansatz von Microsoft, mit Hilfe von Powershell Workflows regelmässig Wiederkehrende Aufgaben in großen Umgebungen zu automatisieren. Es werden sogennante Runbooks erstellt, die dann zeit- oder Ereignisgesteuert gestartet werden können. Der grafische Runbook Editor macht das Erstellen dabei auch für den Laien einfach. In dieser Session stellt Holger Voges die Grundlagen der Runbooks vor und zeigt, was Sie mit Azure Automation erreichen können."
+            language: German
+            name: "Automatisierung mit Azure Automation, Runbooks und Workflows"
+            speaker: "Holger Voges"
+      -
+        time: "16:45 - 17:45"
+        tracks:
+          -
+            description:
+              de: "Windows Server 2016 introduces a new edition of Powershell: PowerShell Core.  PowerShell Core is a reboot of the PowerShell ecosystem based upon .Net Core.  This session explains why we are doing PowerShell Core and what it means to the future of PowerShell."
+              en: "Windows Server 2016 introduces a new edition of Powershell: PowerShell Core.  PowerShell Core is a reboot of the PowerShell ecosystem based upon .Net Core.  This session explains why we are doing PowerShell Core and what it means to the future of PowerShell."
+            language: English
+            name: "PowerShell Core – why and what?"
+            speaker: "Jeffery Snover"
+            span: true
+            spanLength: 2
+
+      -
+        time: "17:45 - 18:15"
+        tracks:
+          -
+            description:
+              de: "Großes Speaker-Panel mit allen anwesenden Speakern. In dieser gemeinsamen Session wird das Fazit des Tages gezogen und der Dialog mit den Delegierten gesucht. Fragen, Anregungen und Feedback, auch für die kommenden beiden Konferenztage, finden hier Raum. Anschließend gehen wir gemeinsam zum Abendevent im Zoo Hannover: in Yukon Bay wird der Tag in einer nachgebildeten Goldgräberstadt ausklingen, natürlich mit Eisbär-Fütterung und Fütterung der Delegierten mit Speis und Trank."
+              en: "combined session: Speakers Panel with all speakers (Beethoven-Saal)"
+            language: English
+            name: "Combined Session"
+            span: true
+            spanLength: 2
+            speaker: "All Speakers"
+      -
+        time: "18:45 - 01:00"
+        tracks:
+          -
+            description:
+              de: "Evening Event at Yukon Bay (inkl. Abendessen)"
+              en: "Evening Event at Yukon Bay (incl. dinner)"
+            language: ~
+            name: "Evening Event"
+            span: true
+            spanLength: 2
+            speaker: "All Attendees & Speakers"
+    title:
+      de: "Tag 1"
+      en: "Day 1"
+    trackHeaders:
+      -
+        title:
+          de: Zeit
+          en: Time
+      -
+        title:
+          de: "Track 1 (English)"
+          en: "Track 1 (English)"
+      -
+        title:
+          de: "Track 2 (German)"
+          en: "Track 2 (German)"
+  -
+    active: false
+    date: "21.04.2016"
+    id: day2
+    timeSlots:
+      -
+        time: "09:00 - 10:00"
+        tracks:
+          -
+            description:
+              de: ""
+              en: ""
+            language: German
+            name: Mehr erreichen mit den CIM-Cmdlets
+            speaker: "Dr. Holger Schwichtenberg"
+          -
+            description:
+              de: "Windows Containers are a new lightweight virtualization option in Windows Server 2016. In this session you’ll be introduced to Windows Containers and shown the difference between a Container and virtual machine.  You’ll learn how to configure a machine to support containers, how to create and manage containers using the PowerShell Container module. Containers are available on Linux machines and you’ll learn how manage Windows or Linux based containers using the Docker API.  This will be a code heavy session with a maximum of demonstration and minimum of slides."
+              en: "Windows Containers are a new lightweight virtualization option in Windows Server 2016. In this session you’ll be introduced to Windows Containers and shown the difference between a Container and virtual machine.  You’ll learn how to configure a machine to support containers, how to create and manage containers using the PowerShell Container module. Containers are available on Linux machines and you’ll learn how manage Windows or Linux based containers using the Docker API.  This will be a code heavy session with a maximum of demonstration and minimum of slides."
+            language: English
+            name: Creating and Managing Windows Containers
+            speaker: Richard Siddaway
+          -
+            description:
+              de: "Could you just tell me……….? This may cost 10 seconds of time or it may take several hours but it will definitely stop the current task and impact its completion
+              A SQL DBA will be required to provide a myriad of information in many different ways to many different types of people, answering questions from technical teams, technology teams, other parts of the business as well as directors and external parties.
+              In this session you will learn the why, what and how of automating the gathering, storing and displaying of information enabling self-service and reducing the interruptive calls on your time whilst ensuring that the data is correct and trustworthy. I will also show you how you can use this to enable consistency across your estate. This session will be of benefit to the Accidental DBAs as well as DBAs looking after large estates
+              The majority of the session will concentrate on the way I use PowerShell to gather the information and store it. I will also show you how to enable self-service with natural language query using PowerBi.
+              You will leave the session with all of the tools you need to return to work and convince your boss this is a worthwhile use of your time and to implement this solution to provide a modern way of providing accurate information about your estate"
+              en: "Could you just tell me……….? This may cost 10 seconds of time or it may take several hours but it will definitely stop the current task and impact its completion
+              A SQL DBA will be required to provide a myriad of information in many different ways to many different types of people, answering questions from technical teams, technology teams, other parts of the business as well as directors and external parties.
+              In this session you will learn the why, what and how of automating the gathering, storing and displaying of information enabling self-service and reducing the interruptive calls on your time whilst ensuring that the data is correct and trustworthy. I will also show you how you can use this to enable consistency across your estate. This session will be of benefit to the Accidental DBAs as well as DBAs looking after large estates
+              The majority of the session will concentrate on the way I use PowerShell to gather the information and store it. I will also show you how to enable self-service with natural language query using PowerBi.
+              You will leave the session with all of the tools you need to return to work and convince your boss this is a worthwhile use of your time and to implement this solution to provide a modern way of providing accurate information about your estate"
+            language: English
+            name: "Power Bi, PowerShell and DBA - Double Session"
+            speaker: "Rob Sewell"
+          -
+            description:
+              de: "Infrastructure as code represents the evolving trend in the data center deployment and configuration management. Infra as code preaches that the
+
+infrastructure developers or administrators look at configuration of components as code and follow development practices such source control and unit
+
+testing. However, this alone won't complete infra as code story. There must be an operations validation framework that follows infra as code. This session
+
+intends to show how Pester can be used for not just unit testing of your code but also for operations validation. This is demonstrated by showcasing the power of Pester along with custom scripting to validate the configuration of heterogeneous systems in the solution."
+              en: "Infrastructure as code represents the evolving trend in the data center deployment and configuration management. Infra as code preaches that the
+
+infrastructure developers or administrators look at configuration of components as code and follow development practices such source control and unit
+
+testing. However, this alone won't complete infra as code story. There must be an operations validation framework that follows infra as code. This session
+
+intends to show how Pester can be used for not just unit testing of your code but also for operations validation. This is demonstrated by showcasing the power of Pester along with custom scripting to validate the configuration of heterogeneous systems in the solution."
+            language: English
+            name: "Operational validation for infrastructure as code"
+            speaker: "Ravikanth Chaganti"
+      -
+        time: "10:15 - 11:15"
+        tracks:
+          -
+            description:
+              de: "Haben Sie schon mal was von Docker oder Containern gehört? Ist jetzt Docker ein Container? Ergründen Sie mit mir, in einem PowerShell geführten Pfad, diese neue Technologie welche die DevOps Welt verändern könnte. Zusammen richten wir Windows Container Hosts und Hyper-V Container ein und konfigurieren diverse Container über PowerShell und Docker. Schlussendlich widmen wir uns der Automatisierung dieser."
+              en: "Haben Sie schon mal was von Docker oder Containern gehört? Ist jetzt Docker ein Container? Ergründen Sie mit mir, in einem PowerShell geführten Pfad, diese neue Technologie welche die DevOps Welt verändern könnte. Zusammen richten wir Windows Container Hosts und Hyper-V Container ein und konfigurieren diverse Container über PowerShell und Docker. Schlussendlich widmen wir uns der Automatisierung dieser."
+            language: German
+            name: "Configuration von Windows Container Hosts und Containern selbst"
+            speaker: "Rinon Belegu"
+          -
+            description:
+              de: "Windows Containers are a new lightweight virtualization option in Windows Server 2016. In this session you’ll learn about the sorts of applications that are supported in Windows containers as well as how to configure containers and install applications. Many organizations are investing a devops approach and you’ll learn how containers can be used to easily move applications through development, testing and into production. This will be a code heavy session with a maximum of demonstration and minimum of slides."
+              en: "Windows Containers are a new lightweight virtualization option in Windows Server 2016. In this session you’ll learn about the sorts of applications that are supported in Windows containers as well as how to configure containers and install applications. Many organizations are investing a devops approach and you’ll learn how containers can be used to easily move applications through development, testing and into production. This will be a code heavy session with a maximum of demonstration and minimum of slides."
+            language: English
+            name: Managing applications in Windows Containers
+            speaker: Richard Siddaway
+          -
+            description:
+              de: "Could you just tell me……….? This may cost 10 seconds of time or it may take several hours but it will definitely stop the current task and impact its completion
+              A SQL DBA will be required to provide a myriad of information in many different ways to many different types of people, answering questions from technical teams, technology teams, other parts of the business as well as directors and external parties.
+              In this session you will learn the why, what and how of automating the gathering, storing and displaying of information enabling self-service and reducing the interruptive calls on your time whilst ensuring that the data is correct and trustworthy. I will also show you how you can use this to enable consistency across your estate. This session will be of benefit to the Accidental DBAs as well as DBAs looking after large estates
+              The majority of the session will concentrate on the way I use PowerShell to gather the information and store it. I will also show you how to enable self-service with natural language query using PowerBi.
+              You will leave the session with all of the tools you need to return to work and convince your boss this is a worthwhile use of your time and to implement this solution to provide a modern way of providing accurate information about your estate"
+              en: "Could you just tell me……….? This may cost 10 seconds of time or it may take several hours but it will definitely stop the current task and impact its completion
+              A SQL DBA will be required to provide a myriad of information in many different ways to many different types of people, answering questions from technical teams, technology teams, other parts of the business as well as directors and external parties.
+              In this session you will learn the why, what and how of automating the gathering, storing and displaying of information enabling self-service and reducing the interruptive calls on your time whilst ensuring that the data is correct and trustworthy. I will also show you how you can use this to enable consistency across your estate. This session will be of benefit to the Accidental DBAs as well as DBAs looking after large estates
+              The majority of the session will concentrate on the way I use PowerShell to gather the information and store it. I will also show you how to enable self-service with natural language query using PowerBi.
+              You will leave the session with all of the tools you need to return to work and convince your boss this is a worthwhile use of your time and to implement this solution to provide a modern way of providing accurate information about your estate"
+            language: English
+            name: "Power Bi, PowerShell and DBA - Double Session"
+            speaker: "Rob Sewell"
+          -
+            description:
+              de: "Active Directory has been covered from a system administration aspect for as long as it has existed. However, much less information exists on how adversaries abuse and backdoor AD, leaving many defenders blind to the attacks being executed in their own environment. This talk will cover Active Directory from an offensive perspective, illustrating ways that attackers move through Windows networks with ease. PowerView (the PowerShell domain enumeration tool) will be highlighted, including how to use it for local administrator enumeration, domain trust hopping, user hunting, ACL auditing, and more. Much of PowerView can be used from a defensive perspective as well, allowing defenders to enumerate and plug holes in their networks before attackers find them."
+              en: "Active Directory has been covered from a system administration aspect for as long as it has existed. However, much less information exists on how adversaries abuse and backdoor AD, leaving many defenders blind to the attacks being executed in their own environment. This talk will cover Active Directory from an offensive perspective, illustrating ways that attackers move through Windows networks with ease. PowerView (the PowerShell domain enumeration tool) will be highlighted, including how to use it for local administrator enumeration, domain trust hopping, user hunting, ACL auditing, and more. Much of PowerView can be used from a defensive perspective as well, allowing defenders to enumerate and plug holes in their networks before attackers find them."
+            language: English
+            name: "Offensive Active Directory"
+            speaker: "Will Schroeder"
+      -
+        time: "11:30 - 12:30"
+        tracks:
+          -
+            description:
+              de: "In dieser Session wird der Einsatz von PowerShell in typischen Deployment- und Provisioning-Szenarien für Unternehmen gezeigt. Dabei wird PowerShell sowohl als Hilfsmittel zur Erweiterung vom System Center Configuration Manager (SCCM) genutzt als auch zum vollständigen Deployment und Provisioning von Computern. Als Erweiterung der vorhandenen Softwarebereitstellung oder als alternative in kleinen Umgebungen wird PackageManagement (ehemals OneGet) vorgestellt. Darüber hinaus wird demonstriert, wie per PowerShell Computer neu provisioniert, neue Benutzer eingerichtet und für die Nutzung mit Office 365 konfiguriert werden."
+              en: "In dieser Session wird der Einsatz von PowerShell in typischen Deployment- und Provisioning-Szenarien für Unternehmen gezeigt. Dabei wird PowerShell sowohl als Hilfsmittel zur Erweiterung vom System Center Configuration Manager (SCCM) genutzt als auch zum vollständigen Deployment und Provisioning von Computern. Als Erweiterung der vorhandenen Softwarebereitstellung oder als alternative in kleinen Umgebungen wird PackageManagement (ehemals OneGet) vorgestellt. Darüber hinaus wird demonstriert, wie per PowerShell Computer neu provisioniert, neue Benutzer eingerichtet und für die Nutzung mit Office 365 konfiguriert werden."
+            language: German
+            name: "PowerShell in Deployment-Szenarien"
+            speaker: "Christian Krüger und Waldemar Schmidt"
+          -
+            description:
+              de: "More and more PowerShell resources are being published as open source projects on GitHub. Most PowerShell enthusiasts have got the and started to put their work in source control but not all feel comfortable to contribute to a public project hosted by strangers. In this session Simon Wåhlin will share his experience of contributing to public repositories and show the process of working with git from the command line. Attend to listen and maybe learn something or, even better, attend and share your experience! Because that's what the community is really all about, sharing experiences"
+              en: "More and more PowerShell resources are being published as open source projects on GitHub. Most PowerShell enthusiasts have got the and started to put their work in source control but not all feel comfortable to contribute to a public project hosted by strangers. In this session Simon Wåhlin will share his experience of contributing to public repositories and show the process of working with git from the command line. Attend to listen and maybe learn something or, even better, attend and share your experience! Because that's what the community is really all about, sharing experiences"
+            language: English
+            name: "Get-Contributing - Contributing to community resources"
+            speaker: "Simon Wåhlin"
+          -
+            description:
+              de: "Automate management tasks like backup, find performance bottlenecks and resolve them, strengthen the security level of your servers, save PowerShell output in SQL Server, get data from SQL Server to process in PowerShell, and much more."
+              en: "Automate management tasks like backup, find performance bottlenecks and resolve them, strengthen the security level of your servers, save PowerShell output in SQL Server, get data from SQL Server to process in PowerShell, and much more."
+            language: English
+            name: "SQL Server through PowerShell"
+            speaker: "Dimitri Koens"
+          -
+            description:
+              de: "In this session Jaap will show how setup protected event logging. This will be a demo heavy session in which Japp will show how to set up protected event logging, configuring the certificates required, describe what the pitfalls are and what the pros and cons of the different configuration options are."
+              en: "In this session Jaap will show how setup protected event logging. This will be a demo heavy session in which Japp will show how to set up protected event logging, configuring the certificates required, describe what the pitfalls are and what the pros and cons of the different configuration options are."
+            language: English
+            name: "Lockdown your System - Protected event logging"
+            speaker: "Jaap Brasser"
+          -
+            description:
+              de: "In dieser Session erfahren Sie, was Workflows in PowerShel l eigentlich sind und wie man sie einsetzt. Dabei wird der größte Vorteil der Workflows demonstriert: Workflows können Code auch über Unterbrechungen hinweg wie zum Beispiel den Neustart eines Systems ausführen. Welche Dinge bei Workflows zu beachten sind, zum Beispiel das gegenüber klassischem PowerShell-Code unterschiedliche Konzept von Variablengültigkeiten, wird ebenfalls behandelt."
+              en: "In dieser Session erfahren Sie, was Workflows in PowerShel l eigentlich sind und wie man sie einsetzt. Dabei wird der größte Vorteil der Workflows demonstriert: Workflows können Code auch über Unterbrechungen hinweg wie zum Beispiel den Neustart eines Systems ausführen. Welche Dinge bei Workflows zu beachten sind, zum Beispiel das gegenüber klassischem PowerShell-Code unterschiedliche Konzept von Variablengültigkeiten, wird ebenfalls behandelt."
+            language: German
+            name: "Workflows: Unterbrechungen in Workflows und Gültigkeit von Variablen"
+            speaker: "Stephan Kulla"
+      -
+        time: "12:30 - 13:30"
+        tracks:
+          -
+            description:
+              de: Lunch
+              en: Lunch
+            language: ""
+            name: Lunch
+            span: true
+            spanLength: 5
+            speaker: ""
+      -
+        time: "13:30 - 14:30"
+        tracks:
+          -
+            description:
+              de: "Die allgegenwärtige Hybris mit der wir dem Thema PowerShell begegenen, verdeckt den Blick auf zahlreiche Stolperfallen, die insbesondere Admins (vs. Entwickler) schell in tückische Fallen tappen lassen. Der Vortrag präsentiert die (rein subjektiven) Top 10 der Scheußlichkeiten und - selbstverständlich - Ansätze, wie man diese Herausforderungen meistert. Wir sprechen u.a. über fehlerhafte Lokalisierung, falsche Datentypen beim Parameteraufruf, die nutzlosesten Cmdlets (Platz 1: Get-Service), die Hölle der Groß-/Kleinschreibung, einen fehlerfreudigen Active-Directory-Webzugriff und warum robocopy und icacls auch in Zeiten der PowerShell meistens die ultima ratio für das eigene Script darstellen."
+              en: "Die allgegenwärtige Hybris mit der wir dem Thema PowerShell begegenen, verdeckt den Blick auf zahlreiche Stolperfallen, die insbesondere Admins (vs. Entwickler) schell in tückische Fallen tappen lassen. Der Vortrag präsentiert die (rein subjektiven) Top 10 der Scheußlichkeiten und - selbstverständlich - Ansätze, wie man diese Herausforderungen meistert. Wir sprechen u.a. über fehlerhafte Lokalisierung, falsche Datentypen beim Parameteraufruf, die nutzlosesten Cmdlets (Platz 1: Get-Service), die Hölle der Groß-/Kleinschreibung, einen fehlerfreudigen Active-Directory-Webzugriff und warum robocopy und icacls auch in Zeiten der PowerShell meistens die ultima ratio für das eigene Script darstellen."
+            language: German
+            name: "\"Ich hasse PowerShell\"  - top 10 Stolperstellen"
+            speaker: "Thorsten Butz"
+          -
+            description:
+              de: "Come on a journey from The bloke that wrote some scripts to a professional solution for a whole IT team.
+              A session for Powershell beginners and those wishing to improve how their team use PowerShell
+              Each organization requires specific tasks that can be accomplished using PowerShell. I will show you how you can achieve this by demonstrating
+              An easy way to learn the syntax
+              How to explore objects with Powershell and turn your one off scripts into shareable functions
+              How to ensure that your team can easily and quickly make use of and contribute to PowerShell solutions
+
+              A fast-paced session with ideas and discussion points for you to take back to work"
+              en: "Come on a journey from The bloke that wrote some scripts to a professional solution for a whole IT team.
+              A session for Powershell beginners and those wishing to improve how their team use PowerShell
+              Each organization requires specific tasks that can be accomplished using PowerShell. I will show you how you can achieve this by demonstrating
+              An easy way to learn the syntax
+              How to explore objects with Powershell and turn your one off scripts into shareable functions
+              How to ensure that your team can easily and quickly make use of and contribute to PowerShell solutions
+
+              A fast-paced session with ideas and discussion points for you to take back to work"
+            language: English
+            name: "Making PowerShell useful for your team"
+            speaker: "Rob Sewell"
+          -
+            description:
+              de: "-WhatIf migrating an entire SQL Server instance was as simple as executing a single cmdlet? In this session, you'll learn about the challenges of SQL Server migrations using native tools, and how PowerShell can be used to simplify the entire process."
+              en: "-WhatIf migrating an entire SQL Server instance was as simple as executing a single cmdlet? In this session, you'll learn about the challenges of SQL Server migrations using native tools, and how PowerShell can be used to simplify the entire process."
+            language: English
+            name: "Simplifying SQL Server Migrations using PowerShell"
+            speaker: "Chrissy LeMaire"
+          -
+            description:
+              de: "This session is a real world example of how connecting the dots between different platforms can help IT-staff fullfill the needs of fast integration of legacy systems into a 802.1x secured network. In an 802.1x secured network most is done by certificates. But there are exeptions when you have old hardware that needs to be integrated using the MAC-address. With Service Manager, Orchestrator, PowerShell and an ARUBA Radius, integrating those devices to the network can be done from a self service portal in a standardised and easy way."
+              en: "This session is a real world example of how connecting the dots between different platforms can help IT-staff fullfill the needs of fast integration of legacy systems into a 802.1x secured network. In an 802.1x secured network most is done by certificates. But there are exeptions when you have old hardware that needs to be integrated using the MAC-address. With Service Manager, Orchestrator, PowerShell and an ARUBA Radius, integrating those devices to the network can be done from a self service portal in a standardised and easy way."
+            language: English
+            name: "System Center, PowerShell and 802.1x network protection – Connecting the dots for easy device integration"
+            speaker: "Christian Lehrer"
+          -
+            description:
+              de: ""
+              en: ""
+            language: English
+            name: "Applied PowerShell Workflow"
+            speaker: "Bruce Payette"
+      -
+        time: "14:45 - 15:45"
+        tracks:
+          -
+            description:
+              de: "In dieser Session lernen Sie den SCCM von einer anderen Seite kennen. Erlernen Sie, wie tägliche Tasks mit Hilfe von PowerShell umgesetzt werden können. Angefangen beim erweitern ihrer Umgebung in Aussenstellen, bis hin zum Erstellen von Applikationen, Collections und dem kompletten Update Handling. Zusammen erweitern wir sogar die SCCM Console um weiter Features. Diese Sessions richtet sich an IT Pros, welche den SCCM schon kennen, jedoch Mittel und Wege suchen, ihren Aufwand zu reduzieren, eine Automatisation zu erreichen oder den SCCM um weitere Funktionen zu erweitern."
+              en: "In dieser Session lernen Sie den SCCM von einer anderen Seite kennen. Erlernen Sie, wie tägliche Tasks mit Hilfe von PowerShell umgesetzt werden können. Angefangen beim erweitern ihrer Umgebung in Aussenstellen, bis hin zum Erstellen von Applikationen, Collections und dem kompletten Update Handling. Zusammen erweitern wir sogar die SCCM Console um weiter Features. Diese Sessions richtet sich an IT Pros, welche den SCCM schon kennen, jedoch Mittel und Wege suchen, ihren Aufwand zu reduzieren, eine Automatisation zu erreichen oder den SCCM um weitere Funktionen zu erweitern."
+            language: German
+            name: "Automatisierung von System Center Konfiguration Manger mit PowerShell"
+            speaker: "Rinon Belegu"
+          -
+            description:
+              de: "Pester is an excellent tool, but its value depends on using it to its fullest potential. It's designed for test-driven development, but few people use it that way.
+
+In this Pester deep-dive, June introduces the concept of test-driven development, shows how to implement these concepts in a scalable process, and runs through several real-world scenarios using PowerShell Help as a specification and test generator, and Pester in its most powerful mode as a test-driven development tool.
+
+We'll also visit the PowerShell.org Community Build Server and learn how to set up automated continuous Pester testing of open-source projects. You'll leave with a clear sense of the value of this discipline and its benefits for large- and small-scale professional PowerShell development."
+              en: "Pester is an excellent tool, but its value depends on using it to its fullest potential. It's designed for test-driven development, but few people use it that way.
+
+In this Pester deep-dive, June introduces the concept of test-driven development, shows how to implement these concepts in a scalable process, and runs through several real-world scenarios using PowerShell Help as a specification and test generator, and Pester in its most powerful mode as a test-driven development tool.
+
+We'll also visit the PowerShell.org Community Build Server and learn how to set up automated continuous Pester testing of open-source projects. You'll leave with a clear sense of the value of this discipline and its benefits for large- and small-scale professional PowerShell development."
+            language: English
+            name: "Test-Driven Development with Pester"
+            speaker: "June Blender"
+          -
+            description:
+              de: "Why should we even question this?  Of course the answer is, use both!  Let's look at how DSC and Chef can be used to build better infrastructure together, including what might be missing in your DSC-only environments."
+              en: "Why should we even question this?  Of course the answer is, use both!  Let's look at how DSC and Chef can be used to build better infrastructure together, including what might be missing in your DSC-only environments."
+            language: English
+            name: Should I use Chef or DSC?
+            speaker: "Niklas Akerlund"
+          -
+            description:
+              de: ""
+              en: "This session will be demo-packed, showing real world examples of how to confine an administrator or technical user to only be allowed to execute a singular task or function. During this session we will see an environment configured with JEA and the considerations that come into play, both when designing as well as when implementing this."
+            language: English
+            name: "No more admins, using delegated rights and JEA"
+            speaker: "Jaap Brasser"
+      -
+        time: "16:00 - 17:00"
+        tracks:
+          -
+            description:
+              de: "DSC hat das Experimentierstadium inzwischen überschritten und kommt langsam im Alltag an. Mit Puppet und Chef stehen außerdem zwei Werkzeuge zur Verfügung, um die automatisierte Bereitstellung auch in gemischten Umgebungen breitflächig zu nutzen. Sie kennen DSC, Puppet und Chef noch nicht? Dann lassen Sie sich in der Session einen Überblick darüber geben, welche neuen Welten der Automatisierung sich Ihnen mit diesen Werkzeugen eröffnen."
+              en: "DSC hat das Experimentierstadium inzwischen überschritten und kommt langsam im Alltag an. Mit Puppet und Chef stehen außerdem zwei Werkzeuge zur Verfügung, um die automatisierte Bereitstellung auch in gemischten Umgebungen breitflächig zu nutzen. Sie kennen DSC, Puppet und Chef noch nicht? Dann lassen Sie sich in der Session einen Überblick darüber geben, welche neuen Welten der Automatisierung sich Ihnen mit diesen Werkzeugen eröffnen."
+            language: German
+            name: "Bereitstellung von virtuellen Maschinen mit DSC und Chef / Puppet"
+            speaker: "Holger Voges"
+          -
+            description:
+              de: "In this session we will Deep dive into using a PowerShell host written for WinDbg to enable advanced debugging scenarios."
+              en: "In this session we will Deep dive into using a PowerShell host written for WinDbg to enable advanced debugging scenarios."
+            language: English
+            name: "PowerShell in WinDbg"
+            speaker: "Staffan Gustafsson"
+          -
+            description:
+              de: "This session will cover both the imperative (cmdlets) and declarative (templates) approach, applying to Azure and Azure Stack"
+              en: "This session will cover both the imperative (cmdlets) and declarative (templates) approach, applying to Azure and Azure Stack"
+            language: English
+            name: "Azure Resource Manager"
+            speaker: "Ben Gelens & Aleksandar Nikolic"
+          -
+            description:
+              de: "PowerShell itself does not provide a secure and flexible way to store credentials out of the box. Allthough with PowerShell V5 things got better, still not all problems are solved. See how you can leverage the open source solution KeePass together with Cryptographic Message Syntax and its Public/Private Key infrastructure to solve your password store needs. <br><br>Need to change a password (or those policies...)? No Problem! Change the password the way you would with your personal KeePass and run your stored scripts as before. No need to reencrypt or even touch your scripts. You could even go beyond that and change passwords automated, saving you some time for more automation"
+              en: "PowerShell itself does not provide a secure and flexible way to store credentials out of the box. Allthough with PowerShell V5 things got better, still not all problems are solved. See how you can leverage the open source solution KeePass together with Cryptographic Message Syntax and its Public/Private Key infrastructure to solve your password store needs. <br><br>Need to change a password (or those policies...)? No Problem! Change the password the way you would with your personal KeePass and run your stored scripts as before. No need to reencrypt or even touch your scripts. You could even go beyond that and change passwords automated, saving you some time for more automation"
+            language: English
+            name: "PowerShell and KeePass - A poor persons Credential Database"
+            speaker: "Christan Lehrer"
+      -
+        time: "17:00 - 18:00"
+        tracks:
+          -
+            description:
+              de: "Wie verwaltet man Skripts effektiv? In dieser Session wird auf Versionierung und Sourcecode-Verwaltung eingegangen und gezeigt, wie Code sicher digital signiert wird. Auch die Rechteverwaltung spielt eine Rolle."
+              en: "Wie verwaltet man Skripts effektiv? In dieser Session wird auf Versionierung und Sourcecode-Verwaltung eingegangen und gezeigt, wie Code sicher digital signiert wird. Auch die Rechteverwaltung spielt eine Rolle."
+            language: German
+            name: "Zentraler Business-Repo-Server (TBD)"
+            speaker: "David das Neves"
+          -
+            description:
+              de: "In this session we will go through a practical example of how a to plan and execute a large complex scripting project. This is not going to be a correct answer of how to do it, but an example of how it can be solved, that hopefully can give you some tips for similar projects."
+              en: "In this session we will go through a practical example of how a to plan and execute a large complex scripting project. This is not going to be a correct answer of how to do it, but an example of how it can be solved, that hopefully can give you some tips for similar projects."
+            language: English
+            name: "A practical example of how to approach (and deliver) a large and complex script project"
+            speaker: "Øyvind Kallstad"
+          -
+            description:
+              de: "In this session Jaap will discuss some of the different methods of querying remote systems for information as well as the performance and security considerations of each approach. From there on Jaap will show how parallelize queries and how to reduce the workload on both the local as well as the remote system. The session will go beyond querying from there on and show how to manage systems complete with demos."
+              en: "In this session Jaap will discuss some of the different methods of querying remote systems for information as well as the performance and security considerations of each approach. From there on Jaap will show how parallelize queries and how to reduce the workload on both the local as well as the remote system. The session will go beyond querying from there on and show how to manage systems complete with demos."
+            language: English
+            name: "CIM, OMI, WMI - Querying and Considerations"
+            speaker: "Jaap Brasser"
+          -
+            description:
+              de: "In today’s assume breach school of thought, the defensive stance of an enterprise is often left to an expensive and bloated host-based agent.
+              As it turns out, however, Microsoft already provides an agent that can detect attacker activity in real-time… and it’s free! This agent persists across reboots and can execute commands in response to nearly any conceivable operating system event. Windows Management Instrumentation (WMI) permanent event subscriptions provide this functionality and can be used to transform any machine dating back to Windows 95 into a powerful host-based intrusion detection system (HIDS).
+              Permanent WMI event queries are notoriously difficult to craft, however.
+              Fortunately, PowerShell can come to our rescue!
+              Uproot is an open source PowerShell module specifically tailored to leverage WMI permanent event subscriptions, transforming any Windows system into a powerful HIDS. In this presentation, we will briefly cover WMI permanent event subscriptions, Uproot’s architecture, and how to configure it as a HIDS to monitor your network for attacks. We will finish the presentation with a practical demonstration of Uproot detecting a simulated real-world attack."
+              en: "In today’s assume breach school of thought, the defensive stance of an enterprise is often left to an expensive and bloated host-based agent.
+              As it turns out, however, Microsoft already provides an agent that can detect attacker activity in real-time… and it’s free! This agent persists across reboots and can execute commands in response to nearly any conceivable operating system event. Windows Management Instrumentation (WMI) permanent event subscriptions provide this functionality and can be used to transform any machine dating back to Windows 95 into a powerful host-based intrusion detection system (HIDS).
+              Permanent WMI event queries are notoriously difficult to craft, however.
+              Fortunately, PowerShell can come to our rescue!
+              Uproot is an open source PowerShell module specifically tailored to leverage WMI permanent event subscriptions, transforming any Windows system into a powerful HIDS. In this presentation, we will briefly cover WMI permanent event subscriptions, Uproot’s architecture, and how to configure it as a HIDS to monitor your network for attacks. We will finish the presentation with a practical demonstration of Uproot detecting a simulated real-world attack."
+            language: English
+            name: "Creating an Agent-less Host Intrusion Detection System using PowerShell and WMI"
+            speaker: "Jared Atkinson"
+          -
+            description:
+              de: "Hier können sich deutschsprachige Usergroups vorstellen und mit interessierten Delegierten aus ihrer Umgebung vernetzen. Auch alle, die selbst in ihrer Region eine Usergroup aufbauen möchten, können hier Tips und Informationen erhalten und mit existierenden Usergroups vernetzen. Wer mag, kann sich mit Gleichgesinnten das eigene Abendprogramm verabreden und sich anschließend bei einem kühlen Pils in Hannover verabreden. Ortskundige Beratung zu lohnenswerten Gaststätten und Locations ist sichergestellt."
+              en: "Usergroups present themselves. Come and make plans for tonight!"
+            language: ""
+            name: Usergroups
+            speaker: ""
+    title:
+      de: "Tag 2"
+      en: "Day 2"
+    trackHeaders:
+      -
+        title:
+          de: Zeit
+          en: Time
+      -
+        title:
+          de: "Track 1 (GER)"
+          en: "Track 1 (GER)"
+      -
+        title:
+          de: "Track 2 (ENG)"
+          en: "Track 2 (ENG)"
+      -
+        title:
+          de: "Track 3 (ENG)"
+          en: "Track 3 (ENG)"
+      -
+        title:
+          de: "Track 4 (ENG)"
+          en: "Track 4 (ENG)"
+      -
+        title:
+          de: "Breakout Session"
+          en: "Breakout Session"
+  -
+    active: false
+    date: "22.04.2016"
+    id: day3
+    timeSlots:
+      -
+        time: "09:00 - 10:00"
+        tracks:
+          -
+            description:
+              de: "Sehen Sie anhand eines Beispiels aus dem wahren Leben, wie Sie mit der Kombination verschiedener Produkte die Anforderungen an einfache Integration älterer Geräte in ein per 802.1x gesichertes Netzwerk erfüllen können. Für die meisten Anwendungsfälle in einem 802.1x Netzwerk genügen Zertifikate, die auf bekannten Wegen genutzt werden können. Allerdings gibt es immer wieder Ausnahmen wie alte Hardware, die per MAC-Adresse in das gesicherte Netz aufgenommen werden muss. Mit Service Manager, Orchestrator, PowerShell und einem ARUBA-Radius können solche Geräte einfach und standardisiert aus einem SelfService Portal heraus in das Netzwerk aufgenommen werden."
+              en: "Sehen Sie anhand eines Beispiels aus dem wahren Leben, wie Sie mit der Kombination verschiedener Produkte die Anforderungen an einfache Integration älterer Geräte in ein per 802.1x gesichertes Netzwerk erfüllen können. Für die meisten Anwendungsfälle in einem 802.1x Netzwerk genügen Zertifikate, die auf bekannten Wegen genutzt werden können. Allerdings gibt es immer wieder Ausnahmen wie alte Hardware, die per MAC-Adresse in das gesicherte Netz aufgenommen werden muss. Mit Service Manager, Orchestrator, PowerShell und einem ARUBA-Radius können solche Geräte einfach und standardisiert aus einem SelfService Portal heraus in das Netzwerk aufgenommen werden."
+            language: German
+            name: "System Center, PowerShell and 802.1x Netzwerkabsicherung – Connecting the dots für eine einfache Geräte-Integration"
+            speaker: "Christian Lehrer"
+          -
+            description:
+              de: ""
+              en: ""
+            language: English
+            name: "DSC Resource creation / debugging"
+            speaker: "Ben Gelens"
+          -
+            description:
+              de: "You can manage Hyper-V servers through Hyper-V manager. Managing multiple Hyper-V servers can be done with the same tool, but it's very cumbersome, and some interesting features are only exposed through PowerShell. Learn in this session about: manage multiple Hyper-V hosts as a group, measure and optimize performance of your hosts and VMs, enable hidden networking features, customize Hyper-V Replica, integrate with Azure, and much more"
+              en: "You can manage Hyper-V servers through Hyper-V manager. Managing multiple Hyper-V servers can be done with the same tool, but it's very cumbersome, and some interesting features are only exposed through PowerShell. Learn in this session about: manage multiple Hyper-V hosts as a group, measure and optimize performance of your hosts and VMs, enable hidden networking features, customize Hyper-V Replica, integrate with Azure, and much more"
+            language: English
+            name: "Unleash the Power of Hyper-V through PowerShell (and find some hidden gems on the way)"
+            speaker: "Dimitri Koens"
+          -
+            description:
+              de: "Working with XML in PowerShell can come in handy in many scenarios. In this session I will show you some tips and tricks that may make you more effective when working with XML as a structured text document. Expect “implicit foreach”, XPath and XSLT on the horizon! I will do my best to make sure that you know how to use them when you get back home."
+              en: "Working with XML in PowerShell can come in handy in many scenarios. In this session I will show you some tips and tricks that may make you more effective when working with XML as a structured text document. Expect “implicit foreach”, XPath and XSLT on the horizon! I will do my best to make sure that you know how to use them when you get back home."
+            language: English
+            name: "XML is your friend!"
+            speaker: "Bartek Bielawski"
+          -
+            description:
+              de: "In dieser Session berichtet Stephan Kulla über praktische Lösungen aus dem Bereich Windows Server und Active Directory sowie dem Umfeld des System Center Operationsmanager"
+              en: "In dieser Session berichtet Stephan Kulla über praktische Lösungen aus dem Bereich Windows Server und Active Directory sowie dem Umfeld des System Center Operationsmanager"
+            language: German
+            name: "Praktische Lösungen mit der Powershell in der Praxis"
+            speaker: "Stephan Kulla"
+      -
+        time: "10:15 - 11:15"
+        tracks:
+          -
+            description:
+              de: "In der jüngsten Vergangenheit sind unterschiedliche Angriffstechniken auf Active Directory Infrastrukturen publiziert wurden, die die Single-Sign-On (SSO) Mechanismen innerhalb der Windows Plattform angreifen und hierbei die Anmeldedaten von privilegierten Benutzerkonten zunächst auslesen und anschließend innerhalb einer Active Directory Struktur wiederverwenden. In dem ersten Teil des Vortrags werden zum einen die Implikationen der Windows Single-Sign-On Funktionalität dargestellt und anschließend eine Lösung skizziert, wie man durch die Verwendung eines geeignetes Role-Base-Access-Control (RBAC) Modells, die dargestellten Single-Sign-On Implikationen auf einzelne Teilbereiche einer Active Directory Struktur eingrenzen kann. Das in dem Vortrag vorgestellte RBAC Modell unterteilt hierbei eine Active Directory Domäne zunächst in unterschiedliche Sicherheitsbereiche und isoliert über geeignete ACLs und Gruppenrichtlinien die privilegierten Benutzerkonten der jeweiligen Sicherheitsbereiche, so dass die dargestellten Angriffstechniken nicht mehr zwischen unterschiedliche Sicherheitsbereichen verwendet werden können."
+              en: "In der jüngsten Vergangenheit sind unterschiedliche Angriffstechniken auf Active Directory Infrastrukturen publiziert wurden, die die Single-Sign-On (SSO) Mechanismen innerhalb der Windows Plattform angreifen und hierbei die Anmeldedaten von privilegierten Benutzerkonten zunächst auslesen und anschließend innerhalb einer Active Directory Struktur wiederverwenden. In dem ersten Teil des Vortrags werden zum einen die Implikationen der Windows Single-Sign-On Funktionalität dargestellt und anschließend eine Lösung skizziert, wie man durch die Verwendung eines geeignetes Role-Base-Access-Control (RBAC) Modells, die dargestellten Single-Sign-On Implikationen auf einzelne Teilbereiche einer Active Directory Struktur eingrenzen kann. Das in dem Vortrag vorgestellte RBAC Modell unterteilt hierbei eine Active Directory Domäne zunächst in unterschiedliche Sicherheitsbereiche und isoliert über geeignete ACLs und Gruppenrichtlinien die privilegierten Benutzerkonten der jeweiligen Sicherheitsbereiche, so dass die dargestellten Angriffstechniken nicht mehr zwischen unterschiedliche Sicherheitsbereichen verwendet werden können."
+            language: German
+            name: "Automatisierte Umsetzung von Active Directory Sicherheitskonzepten (Teil 1)"
+            speaker: "Kai Wilke & Waldemar Schmidt"
+          -
+            description:
+              de: "How do you bring the benefits of Configuration Management via DSC to 3rd party systems & Applications? In this presnetation Benjamin will take a look at how common APIs work & how you can create custom DSC Resource wrappers quickly & easily so that you can integrate these systems with your standard DSC configurations"
+              en: "How do you bring the benefits of Configuration Management via DSC to 3rd party systems & Applications? In this presnetation Benjamin will take a look at how common APIs work & how you can create custom DSC Resource wrappers quickly & easily so that you can integrate these systems with your standard DSC configurations"
+            language: English
+            name: "Pimp My Resources: Controlling APIs via DSC"
+            speaker: "Benjamin Hodge"
+          -
+            description:
+              de: "Although logging PowerShell activity for security can be implemented by 'Over-the-shoulder transcription' in v5, you may want to add some advanced logging to your scripts, while minimizing log management and keeping it consistent across your environments.
+Using the log4net library as a base and leveraging it with PowerShell, the log4ps module enables you to implement structured logging for your scripts, driven by XML files, picking up changes on the fly without the need to restart your script.
+With no more code than you already have, you can send logs to files, with a cap on their size, roll them automatically, use buffers, time stamps, context and so on. But if you really want to push further, by simply editing the XML definition you can log to EventLog, SMTP, Databases, SysLog, TCP Sink, UDP endpoints, ELMAH, Logstash for elastic search, Loggly, AWS or Message Queues directly from your script!"
+              en: "Although logging PowerShell activity for security can be implemented by 'Over-the-shoulder transcription' in v5, you may want to add some advanced logging to your scripts, while minimizing log management and keeping it consistent across your environments.
+Using the log4net library as a base and leveraging it with PowerShell, the log4ps module enables you to implement structured logging for your scripts, driven by XML files, picking up changes on the fly without the need to restart your script.
+With no more code than you already have, you can send logs to files, with a cap on their size, roll them automatically, use buffers, time stamps, context and so on. But if you really want to push further, by simply editing the XML definition you can log to EventLog, SMTP, Databases, SysLog, TCP Sink, UDP endpoints, ELMAH, Logstash for elastic search, Loggly, AWS or Message Queues directly from your script!"
+            language: English
+            name: "Advanced Logging with log4net: principle, practice and applications"
+            speaker: "Gael Colas"
+          -
+            description:
+              de: "A look at how Runspaces and a runspace pool can be used to implement Invoke-Parallel: a cmdlet in C# that invokes multiple instances of runspaces concurrently."
+              en: "A look at how Runspaces and a runspace pool can be used to implement Invoke-Parallel: a cmdlet in C# that invokes multiple instances of runspaces concurrently."
+            language: English
+            name: "Parallelizing PowerShell"
+            speaker: "Staffan Gustafsson"
+          -
+            description:
+              de: "In dieser zweiteiligen Session konfigurieren wir im ersten Teil eine On-Premise Hyper-V und VMM Umgebung mit PowerShell. Im zweiten Teil, erweitern wir die Umgebung mit Hilfe von Azure - PowerShell in die Cloud. Wir richten eine Replikation kritischer lokaler Instanzen auf Azure ein. Im weiteren erschaffen wir eine Möglichkeit eines automatischen Failovers zu Azure, im Falle eines Disasters. Neben den PowerShell befehlen, werden auch die Grundlagen der einzelnen Technologien erläutert."
+              en: "In dieser zweiteiligen Session konfigurieren wir im ersten Teil eine On-Premise Hyper-V und VMM Umgebung mit PowerShell. Im zweiten Teil, erweitern wir die Umgebung mit Hilfe von Azure - PowerShell in die Cloud. Wir richten eine Replikation kritischer lokaler Instanzen auf Azure ein. Im weiteren erschaffen wir eine Möglichkeit eines automatischen Failovers zu Azure, im Falle eines Disasters. Neben den PowerShell befehlen, werden auch die Grundlagen der einzelnen Technologien erläutert."
+            language: German
+            name: "Azure Site (Disaster) Recovery mit PowerShell (Teil 1)"
+            speaker: "Rinon Belegu"
+      -
+        time: "11:30 - 12:30"
+        tracks:
+          -
+            description:
+              de: "Da die Konfiguration des dargestellten RBAC-Modell sehr komplex ist, wird in dem zweiten Teil erklärt wie man über die PowerShell die Konfiguration solch komplexer Sicherheitsmechanismen automatisieren und auch prozesssicher machen kann. Mit der PowerShell wird eine Active Directory Organisationsstruktur anhand einer Konfigurationsdatei erstellt. Hinzu kommt die Delegation und Erstellung von AD Gruppen für die Verwaltung der unterschiedlichen Sicherheitsbereiche. Für die Zugriffssteuerung der Sicherheitsbereiche werden automatisiert Gruppenrichtlinien erstellt, verlinkt und bei Bedarf mit WMI Filtern versehen. Mit Hilfe von Windows Presentation Foundation wird eine grafische Oberfläche bereitgestellt, um die Handhabung weiter zu vereinfachen."
+              en: "Da die Konfiguration des dargestellten RBAC-Modell sehr komplex ist, wird in dem zweiten Teil erklärt wie man über die PowerShell die Konfiguration solch komplexer Sicherheitsmechanismen automatisieren und auch prozesssicher machen kann. Mit der PowerShell wird eine Active Directory Organisationsstruktur anhand einer Konfigurationsdatei erstellt. Hinzu kommt die Delegation und Erstellung von AD Gruppen für die Verwaltung der unterschiedlichen Sicherheitsbereiche. Für die Zugriffssteuerung der Sicherheitsbereiche werden automatisiert Gruppenrichtlinien erstellt, verlinkt und bei Bedarf mit WMI Filtern versehen. Mit Hilfe von Windows Presentation Foundation wird eine grafische Oberfläche bereitgestellt, um die Handhabung weiter zu vereinfachen."
+            language: German
+            name: "Automatisierte Umsetzung von Active Directory Sicherheitskonzepten (Teil 2)"
+            speaker: "Kai Wilke & Waldemar Schmidt"
+          -
+            description:
+              de: "DSC v1 lacked support for real enterprise scenarios where more than one person or team is responsible for deploying configuration of a system or solution.
+
+DSC v2 solves this with the introduction of partial configurations. Partial configurations allow departmental delegation and incremental configuration
+
+updates. Cross-machine synchronization along with partial configurations can be used to build complex multi-tier solution infrastructures. This session demonstrates this and dives deep into the features."
+              en: "DSC v1 lacked support for real enterprise scenarios where more than one person or team is responsible for deploying configuration of a system or solution.
+
+DSC v2 solves this with the introduction of partial configurations. Partial configurations allow departmental delegation and incremental configuration
+
+updates. Cross-machine synchronization along with partial configurations can be used to build complex multi-tier solution infrastructures. This session demonstrates this and dives deep into the features."
+            language: English
+            name: "Deep dive into DSC partial configurations and cross-machine synchronization"
+            speaker: "Ravikanth Chaganti"
+          -
+            description:
+              de: "Using the module, Import-CsvToSql which is developed by Chrissy, you can import up to 200,000 rows a second. But it didn't start out that way. In this session, I'll show you some best practices and techniques that will help make your PowerShell scripts super fast."
+              en: "Using my module, Import-CsvToSql which is developed by Chrissy, you can import up to 200,000 rows a second. But it didn't start out that way. In this session, I'll show you some best practices and techniques that will help make your PowerShell scripts super fast."
+            language: English
+            name: "PowerShell and SQL Server: My Journey to 200,000 rows a second"
+            speaker: "Chrissy LeMaire"
+          -
+            description:
+              de: "In this session I will share with you my journey in optimizing a script to enumerate millions of files and folders. I will start by using PowerShell, dive into .NET and end up in the wonderful world of the Win32 API. You will be amazed!"
+              en: "In this session I will share with you my journey in optimizing a script to enumerate millions of files and folders. I will start by using PowerShell, dive into .NET and end up in the wonderful world of the Win32 API. You will be amazed!"
+            language: English
+            name: "Chasing the seconds: Optimizing file enumeration by diving deep into the Windows API"
+            speaker: "Øyvind Kallstad"
+          -
+            description:
+              de: ""
+              en: ""
+            language: German
+            name: "Azure Site (Disaster) Recovery mit PowerShell (Teil 2)"
+            speaker: "Rinon Belegu"
+      -
+        time: "12:30 - 13:30"
+        tracks:
+          -
+            description:
+              de: Lunch
+              en: Lunch
+            language: ""
+            name: Lunch
+            span: true
+            spanLength: 5
+            speaker: ""
+      -
+        time: "13:30 - 14:30"
+        tracks:
+          -
+            description:
+              de: "PowerShell bringt leider von Haus aus keine Möglichkeit mit, Passwörter sicher und flexibel zu speichern. Obwohl mit PowerShell 5 die Dinge etwas einfacher geworden sind, sind noch nicht alle Probleme gelöst. Sehen Sie in diesem Vortrag, wie Sie die Open Source Software KeePass im Zusammenspiel mit Cryptographic Message Syntax und seiner Public/Private Key Infrastruktur zu einem flexiblen Passwortspeicher ausbauen können. <br><br>Müssen Sie ein Passwort ändern? Kein Problem! Sie können das Passwort ändern wie bei Ihrer privaten KeePass Installation und Ihre Skripte wie gewohnt laufen lassen ohne irgendetwan neu Verschlüsseln zu müssen. Sie könnten Ihre Passwörter sogar automatisiert ändern lassen um mehr Zeit für andere Dinge zu gewinnen."
+              en: "PowerShell bringt leider von Haus aus keine Möglichkeit mit, Passwörter sicher und flexibel zu speichern. Obwohl mit PowerShell 5 die Dinge etwas einfacher geworden sind, sind noch nicht alle Probleme gelöst. Sehen Sie in diesem Vortrag, wie Sie die Open Source Software KeePass im Zusammenspiel mit Cryptographic Message Syntax und seiner Public/Private Key Infrastruktur zu einem flexiblen Passwortspeicher ausbauen können. <br><br>Müssen Sie ein Passwort ändern? Kein Problem! Sie können das Passwort ändern wie bei Ihrer privaten KeePass Installation und Ihre Skripte wie gewohnt laufen lassen ohne irgendetwan neu Verschlüsseln zu müssen. Sie könnten Ihre Passwörter sogar automatisiert ändern lassen um mehr Zeit für andere Dinge zu gewinnen."
+            language: German
+            name: "PowerShell und KeePass - Eine Credential Database für Arme"
+            speaker: "Christian Lehrer"
+          -
+            description:
+              de: ""
+              en: "When you start doing cloud in a consistent way, you'll probably end up using something like Azure Resource Manager or CloudFormation, or a solution that leverages this.
+Be honest, do you actually like writing JSON files?
+So what if you could use the simplicity and user friendliness of functions and/or cmdlets to generate that declarative JSON code?
+PowerShell: The power of Developers with the usability Operations needs."
+            language: English
+            name: "Using imperative syntax to create declarative code"
+            speaker: "Jeff Wouters"
+          -
+            description:
+              de: "No, this is a new attempt of creating new viral marketing campaign. This is a serious question we all should ask ourselves each time we change a piece of code. Making sure that not only the intended new feature or functionality works but also making sure that all previous functionality is intact can be a frustrating and time consuming task. But don't worry, Pester is here to save us from much of those tedious tasks! Get started with unit testing your code today by learning the basics of the Pester framework."
+              en: "No, this is a new attempt of creating new viral marketing campaign. This is a serious question we all should ask ourselves each time we change a piece of code. Making sure that not only the intended new feature or functionality works but also making sure that all previous functionality is intact can be a frustrating and time consuming task. But don't worry, Pester is here to save us from much of those tedious tasks! Get started with unit testing your code today by learning the basics of the Pester framework."
+            language: English
+            name: "QA: Will it break?"
+            speaker: "Simon Wahlin"
+          -
+            description:
+              de: "Comment-based help is good start, but professional modules, including open-source projects and modules in PowerShell Gallery require more professional help.
+
+In this talk about implementing PowerShell Help for modules, we'll cover the basic and advanced features of XML help, including naming and locating files, supporting online help, implementing updatable help, and providing help in multiple spoken languages. We'll also cover a few basic troubleshooting scenarios and variations to comply with help system rules in different versions of Windows PowerShell."
+              en: "Comment-based help is good start, but professional modules, including open-source projects and modules in PowerShell Gallery require more professional help.
+
+In this talk about implementing PowerShell Help for modules, we'll cover the basic and advanced features of XML help, including naming and locating files, supporting online help, implementing updatable help, and providing help in multiple spoken languages. We'll also cover a few basic troubleshooting scenarios and variations to comply with help system rules in different versions of Windows PowerShell."
+            language: English
+            name: "Professional PowerShell Help for Modules"
+            speaker: "June Blender"
+          -
+            description:
+              de: "Die PowerShell ist ein mächtiges Werkzeug von Microsoft zur Administrierung und Automatisierung von Windows Umgebungen. Alle nötigen Aufgaben können mit Hilfe der PowerShell durchgeführt werden und manche ausschließlich damit. Auch bei uns im Unternehmen ist sie als Standardwerkzeug für die Automatisierung von bestehenden Aufgaben gesetzt. Das führt dazu, dass auch mehr und mehr komplexe Aufgaben mit Hilfe der PowerShell automatisiert werden und schnell Skripts mit 10000 Lines of Code, die außerdem keinen einheitlichen Aufbaue haben, entstehen. Solche Skripte erfüllen zwar natürlich ihren Zweck, aber im Sinne der Verständlichkeit, Wartbarkeit, Wiederverwendbarkeit,... ist das natürlich ein Graus. Deshalb habe ich mir überlegt, dass man die Grundprinzipien des Software Engineering (entstanden durch die Softwarekrise, schlechte Wartbarkeit der Programme usw.) auch für das PowerShell-Skripten anwenden könnte."
+              en: "Die PowerShell ist ein mächtiges Werkzeug von Microsoft zur Administrierung und Automatisierung von Windows Umgebungen. Alle nötigen Aufgaben können mit Hilfe der PowerShell durchgeführt werden und manche ausschließlich damit. Auch bei uns im Unternehmen ist sie als Standardwerkzeug für die Automatisierung von bestehenden Aufgaben gesetzt. Das führt dazu, dass auch mehr und mehr komplexe Aufgaben mit Hilfe der PowerShell automatisiert werden und schnell Skripts mit 10000 Lines of Code, die außerdem keinen einheitlichen Aufbaue haben, entstehen. Solche Skripte erfüllen zwar natürlich ihren Zweck, aber im Sinne der Verständlichkeit, Wartbarkeit, Wiederverwendbarkeit,... ist das natürlich ein Graus. Deshalb habe ich mir überlegt, dass man die Grundprinzipien des Software Engineering (entstanden durch die Softwarekrise, schlechte Wartbarkeit der Programme usw.) auch für das PowerShell-Skripten anwenden könnte."
+            language: German
+            name: "PowerShell goes Software Engineeering"
+            speaker: "Jan Lindmeier"
+      -
+        time: "14:45 - 15:45"
+        tracks:
+          -
+            description:
+              de: ""
+              en: ""
+            language: German
+            name: "PowerShell in Deployment-Szenarien"
+            speaker: "Christian Krüger & Waldemar Schmidt"
+          -
+            description:
+              de: "Using PowerShell and/or Desired State Configuration you're able to do 'infrastructure as code'.
+During this session I'll show you just how I've made that possible in my environment based on PowerShell, DSC, Git, Ansible and Azure.
+Using PowerShell and/or Desired State Configuration you're able to do 'infrastructure as code'.
+During this session I'll show you just how I've made that possible in my environment based on PowerShell, DSC, Git, Ansible and Azure."
+              en: "Using PowerShell and/or Desired State Configuration you're able to do 'infrastructure as code'.
+During this session I'll show you just how I've made that possible in my environment based on PowerShell, DSC, Git, Ansible and Azure.
+Using PowerShell and/or Desired State Configuration you're able to do 'infrastructure as code'.
+During this session I'll show you just how I've made that possible in my environment based on PowerShell, DSC, Git, Ansible and Azure."
+            language: English
+            name: "Building your continuous integration infrastructure"
+            speaker: "Jeff Wouters"
+          -
+            description:
+              de: "How much time do you spend planning a Powershell script or Module before starting to code it? If you're like most people the answer is probably pretty small (or even zero!). In this presentation Benjamin will show you how to create better solutions to real world problems using simple techniques such as Pseudo-code & UML.  Not only will you get the solution right faster but it'll be easier to maintain & support."
+              en: "How much time do you spend planning a Powershell script or Module before starting to code it? If you're like most people the answer is probably pretty small (or even zero!). In this presentation Benjamin will show you how to create better solutions to real world problems using simple techniques such as Pseudo-code & UML.  Not only will you get the solution right faster but it'll be easier to maintain & support."
+            language: English
+            name: "Measure Twice; Cut Once: Designing Better Code"
+            speaker: "Benjamin Hodge"
+          -
+            description:
+              de: "In this session we will uncover the secret world of Regular Expressions and see how and when we can or should use it in PowerShell. No knowledge of Regex is needed to follow this session as we will
+start with the basics and learn through demos and examples."
+              en: "In this session we will uncover the secret world of Regular Expressions and see how and when we can or should use it in PowerShell. No knowledge of Regex is needed to follow this session as we will
+start with the basics and learn through demos and examples."
+            language: English
+            name: "Regular Expressions and PowerShell"
+            speaker: "Øyvind Kallstad"
+      -
+        time: "16:00 - 17:00"
+        tracks:
+          -
+            description:
+              de: "$oldschool = 'ping', 'net', 'nslookup', 'netsh', 'whois', 'ifconfig', 'nmap', 'lsof', 'host', 'traceroute', 'finger' - In der täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren) Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen, die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
+              en: "$oldschool = 'ping', 'net', 'nslookup', 'netsh', 'whois', 'ifconfig', 'nmap', 'lsof', 'host', 'traceroute', 'finger' - In der täglichen Netzwerkarbeit des Admins fristet die PowerShell ein Schattendasein. Warum eigentlich? Bietet die PowerShell keine (besseren) Alternativen oder ist es schlicht die Macht der Gewohnheit, die uns ausgetretene Pfade beschreiten lässt. Der Vortrag stellt (wenig bekannte) PowerShell-Cmdlets zur Netzwerkadministration und -analyse vor und zeigt darüber hinausgehende Scriptlösungen, die die PowerShell zum Alltagswerkzeug in Netzwerkangelegenheiten werden lässt."
+            language: German
+            name: "Networking mit der PowerShell"
+            speaker: "Thorsten Butz"
+          -
+            description:
+              de: "This talk will showcase management via WMI, PowerShell, and Desired State Configuration including remote script authoring, remote debugging, improved file transfer"
+              en: "This talk will showcase management via WMI, PowerShell, and Desired State Configuration including remote script authoring, remote debugging, improved file transfer"
+            language: English
+            name: "Remote Management of Nano Server"
+            speaker: Aleksandar Nikolic
+          -
+            description:
+              de: "PowerShell DSC as it stands now has some limitations. In this session I will try to explain what these limitations are and how other tools can help us address them. We will take a closer look at Octopus and how it can work hand in hand with DSC to solve problems around “getting job done” in dynamic environments."
+              en: "PowerShell DSC as it stands now has some limitations. In this session I will try to explain what these limitations are and how other tools can help us address them. We will take a closer look at Octopus and how it can work hand in hand with DSC to solve problems around “getting job done” in dynamic environments."
+            language: English
+            name: "PowerShell DSC and Octopus: better together"
+            speaker: "Bartek Bielawski"
+          -
+            description:
+              de: "Many modern code editors allow you to add new functionality in their native language.  What if you’d like to add new functionality but you don’t have time to learn Python, JavaScript, or another language?  This session will demonstrate our work to allow you to extend Visual Studio Code and the PowerShell ISE Preview using PowerShell.  Come see how you can use your existing module code in a new way!"
+              en: "Many modern code editors allow you to add new functionality in their native language.  What if you’d like to add new functionality but you don’t have time to learn Python, JavaScript, or another language?  This session will demonstrate our work to allow you to extend Visual Studio Code and the PowerShell ISE Preview using PowerShell.  Come see how you can use your existing module code in a new way!"
+            language: English
+            name: "Extending Modern Code Editors with PowerShell"
+            speaker: "David Wilson"
+      -
+        time: "17:00 - 18:00"
+        tracks:
+          -
+            description:
+              de: "Die Windows Powershell hält Einzug in alle Microsoft-Produkte, auch in den SQL-Server. Mit Powershell erhalten Sie die Möglichkeit, per SMO und .NET nicht nur auf den SQL-Server zuzugreifen, sondern viele Verwaltungsaufgaben, die sie sonst per SQL oder dem Management-Studio erledigen müßten, zu automatisieren. Anhand vieler Codebeispiele zeigen wir Ihnen, wie die Welt der Powershell-Automatisierung auch in den SQL-Server Einzug hält."
+              en: "Die Windows Powershell hält Einzug in alle Microsoft-Produkte, auch in den SQL-Server. Mit Powershell erhalten Sie die Möglichkeit, per SMO und .NET nicht nur auf den SQL-Server zuzugreifen, sondern viele Verwaltungsaufgaben, die sie sonst per SQL oder dem Management-Studio erledigen müßten, zu automatisieren. Anhand vieler Codebeispiele zeigen wir Ihnen, wie die Welt der Powershell-Automatisierung auch in den SQL-Server Einzug hält."
+            language: German
+            name: "SQL-Server verwalten mit Powershell"
+            speaker: "Holger Voges"
+          -
+            description:
+              de: ""
+              en: ""
+            language: English
+            name: "TBC"
+            speaker: "TBC"
+          -
+            description:
+              de: "TBC"
+              en: "TBC"
+            language: English
+            name: TBC
+            speaker: Ryan Yates
+          -
+            description:
+              de: "Has PowerShell Desired State Configuration (DSC) become an important part of your IT/DevOps management processes? Come deepen your knowledge and understanding of DSC including the new features and functionality added in WMF 5.0 as we dive into some of the coolest and least understood parts of DSC with you. We will then open it up for your questions so if you ever wondered how or why some DSC feature or functionality works the way that it does, ask and we will enlighten you or hear your feedback about ways for us to improve."
+              en: "Has PowerShell Desired State Configuration (DSC) become an important part of your IT/DevOps management processes? Come deepen your knowledge and understanding of DSC including the new features and functionality added in WMF 5.0 as we dive into some of the coolest and least understood parts of DSC with you. We will then open it up for your questions so if you ever wondered how or why some DSC feature or functionality works the way that it does, ask and we will enlighten you or hear your feedback about ways for us to improve."
+            language: English
+            name: "PowerShell DSC: A Look Under the Hood"
+            speaker: "Hemant Mahawar"
+    title:
+      de: "Tag 3"
+      en: "Day 3"
+    trackHeaders:
+      -
+        title:
+          de: Zeit
+          en: Time
+      -
+        title:
+          de: "Track 1 (GER)"
+          en: "Track 1 (GER)"
+      -
+        title:
+          de: "Track 2 (ENG)"
+          en: "Track 2 (ENG)"
+      -
+        title:
+          de: "Track 3 (ENG)"
+          en: "Track 3 (ENG)"
+      -
+        title:
+          de: "Track 4 (ENG)"
+          en: "Track 4 (ENG)"
+      -
+        title:
+          de: "Breakout Session"
+          en: "Breakout Session"
+de:
+  schedule: Agenda
+en:
+  schedule: Schedule

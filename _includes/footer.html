@@ -1,0 +1,66 @@
+<footer class="footer">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4">
+				<h3>{{ site.data.misc[page.lang].footerHeading }}</h3>
+				<p><small>{{ site.data.misc[page.lang].footerText }}</small></p>
+
+				<h3><small>{{ site.data.misc[page.lang].newsletterText }}</small></h3>
+				<form class="form-inline" action="//psconf.us11.list-manage.com/subscribe/post?u=92f8fe6c03bcf5a3af9fa2017&amp;id=0b39d3b5d1" method="post" target="_blank" novalidate>
+					<div class="form-group">
+						<input type="email" value="" name="EMAIL" class="form-control" id="mce-EMAIL" placeholder="{{ site.data.misc[page.lang].newsletterMailText }}">
+						<div id="mce-responses" class="clear">
+							<div class="response" id="mce-error-response" style="display:none"></div>
+							<div class="response" id="mce-success-response" style="display:none"></div>
+						</div>    <!-- real people should not fill this in and expect good things - do not remove this or risk form bot signups-->
+					</div>
+    				<div style="position: absolute; left: -5000px;"><input type="text" name="b_92f8fe6c03bcf5a3af9fa2017_0b39d3b5d1" tabindex="-1" value=""></div>
+					<button type="submit" class="btn btn-default" id="mc-embedded-subscribe">{{ site.data.misc[page.lang].subscribe }}</button>
+				</form>
+
+			</div>
+			<div class="col-md-4">
+			</div>
+			<div class="col-md-4">
+				{% if site.data.features.includeContact %}
+				<h3>{{ site.data.contact[page.lang].title }}</h3>
+				<form class="form" id="contactform" action="http://formspree.io/contact@psconf.eu" method="post" data-toggle="validator">
+
+				<!-- Name -->
+				<div class="form-group has-feedback">
+					<div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-user"></i></span>
+						<input type="text" name="name" placeholder="{{ site.data.contact[page.lang].namePlaceholder }}" class="form-control" required>
+					</div>
+				</div>
+
+				<!-- Email -->
+				<div class="form-group has-feedback">
+					<div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-envelope"></i></span>
+						<input type="email" name="email" placeholder="{{ site.data.contact[page.lang].emailPlaceholder }}" class="form-control" required>
+					</div>
+				</div>
+
+				<!-- Message -->
+				<div class="form-group has-feedback">
+					<div class="input-group">
+						<span class="input-group-addon"><i class="glyphicon glyphicon-pencil"></i></span>
+						<textarea class="form-control" name="message" rows="6" placeholder="{{ site.data.contact[page.lang].messagePlaceholder }}" required></textarea>
+					</div>
+				</div>
+
+				<input type="hidden" name="_subject" value="Message from website" />
+				<input type="text" name="_gotcha" style="display:none" />
+
+				<!-- Send button -->
+				<div class="form-group">
+					<label class="control-label"></label>
+					<button type="submit" class="btn btn-default">{{ site.data.contact[page.lang].send }} <span class="glyphicon glyphicon-send"></span></button>
+				</div>
+				</form>
+				{% endif %}
+			</div>
+		</div>
+	</div>
+</footer>
