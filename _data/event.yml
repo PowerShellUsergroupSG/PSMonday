@@ -1,9 +1,9 @@
 # this file contains structured data about the event
 en:
-  name: "PowerShell Conference EU 2016"
-  location: "Hannover, Germany"
-  start: "20.04.2016"
-  end: "22.04.2016"
+  name: "PowerShell Monday Germany 2016"
+  location: "Munich, Germany"
+  start: "22.08.2016"
+  end: "22.08.2016"
 de:
   name: "PowerShell Konferenz EU 2016"
   location: "Hannover, Deutschland"
