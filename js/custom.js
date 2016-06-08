@@ -41,7 +41,7 @@ $(document).ready(function(){
 var map;
 
 function initialize() {
-      var location = {lat: 52.3760037, lng: 9.7691176};
+      var location = {lat: 48.1403566, lng: 11.5564755};
 
       var mapOptions = {
             zoom: 17,
@@ -52,7 +52,7 @@ function initialize() {
 
       var map = new google.maps.Map(document.getElementById('venue-map'), mapOptions);
 
-      var contentString = '<h2>Hannover Congress Centrum</h2><p>Theodor-Heuss-Platz 1-3<br>30175 Hannover<br>Germany</p><p>+49 511 81130</p><p><a href="http://www.hcc.de/">hcc.de</a></p><p><a href="https://www.google.no/maps/dir//Hannover+Congress+Centrum,+Theodor-Heuss-Platz+1-3,+30175+Hannover/@52.3760037,9.7691176,17z/data=!4m13!1m4!3m3!1s0x47b00b5af0dd0b79:0xbc2cad20ca00fdfe!2sHannover+Congress+Centrum!3b1!4m7!1m0!1m5!1m1!1s0x47b00b5af0dd0b79:0xbc2cad20ca00fdfe!2m2!1d9.7691176!2d52.3760037?hl=en">Directions</a></p>'
+      var contentString = '<h2>Munich Central Station (München Hbf)</h2><p>Bayerstraße 10A<br>80335 München<br>Germany</p><p>+49 89 123456</p><p><a href="http://www.hcc.de/">hcc.de</a></p><p><a href="https://www.google.de/maps/place/M%C3%BCnchen+Hbf/@48.1403566,11.5564755,17z/data=!3m1!4b1!4m5!3m4!1s0x479e75feaa5b4f69:0x7ac27d280929b04b!8m2!3d48.1403566!4d11.5586695?hl=en">Directions</a></p>'
 
       var infowindow = new google.maps.InfoWindow({
             content: contentString
@@ -62,7 +62,7 @@ function initialize() {
             position: location,
             map: map,
             animation: google.maps.Animation.DROP,
-            title: 'Hannover Congress Centrum'
+            title: 'München Hbf'
       });
 
       marker.addListener('click', function() {
