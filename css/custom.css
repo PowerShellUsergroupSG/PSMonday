@@ -7,7 +7,7 @@ body {
   /*font-family: 'Gentium Book Basic', serif;*/
   /*font-family: 'Merriweather', serif;*/
   font-family: 'PT Serif', serif;
-  background-color: #E6EBE0;
+  background-color: #C7DDEB;
 }
 
 p {
@@ -57,7 +57,7 @@ section {
 
 .jumbotron {
   text-align: center;
-  background-color: #bcd5d1;
+  background-color: #4091c4;
 }
 
 .jumbotron p{
