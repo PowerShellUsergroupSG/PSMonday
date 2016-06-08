@@ -65,7 +65,7 @@ section {
   /*font-weight:200*/
 }
 
-.jumbotron h2{
+.jumbotron .container h2{
   color: #2E3033
 }
 
