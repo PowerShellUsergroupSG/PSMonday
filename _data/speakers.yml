@@ -1,7 +1,7 @@
 # define bootstrap grid sizes for speaker list
-col_md: 1
-col_sm: 1
-col_xs: 1
+col_md: 12
+col_sm: 12
+col_xs: 12
 
 speakers:
   - name: "The Scripting Guy Ed Wilson"
