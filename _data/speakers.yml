@@ -1,6 +1,6 @@
 # define bootstrap grid sizes for speaker list
-col_md: 12
-col_sm: 12
+col_md: 6
+col_sm: 6
 col_xs: 12
 
 speakers:
