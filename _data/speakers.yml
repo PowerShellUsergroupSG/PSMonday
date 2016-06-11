@@ -20,7 +20,7 @@ speakers:
     blogurl: "http://www.jeffwouters.nl "
     blogname: "jeffwouters.nl "
     bio:
-     "Jeff is great :)"
+      "Jeff is great :)"
   - name: "Rob Sewell"
     img: "/img/RobSewell.jpg" 
     twitterurl: "https://twitter.com/sqldbawithbeard"
@@ -28,7 +28,7 @@ speakers:
     blogurl: "https://sqldbawithabeard.com/"
     blogname: "SQLDBAwighabeard"
     bio:
-    "The best beard in PowerShell! Oh, and he knows some SQL too ;)"
+      "The best beard in PowerShell! Oh, and he knows some SQL too ;)"
   - name: "Amanda Debler"
     img: "/img/AmandaDebler.jpg" 
     twitterurl: "https://twitter.com/texmandie"
