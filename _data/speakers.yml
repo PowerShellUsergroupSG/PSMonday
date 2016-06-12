@@ -13,8 +13,7 @@ speakers:
     bio:
       "Ed Wilson is the Microsoft Scripting Guy and a well-known scripting expert. He writes the daily Hey Scripting Guy! blog. He is a member of the Microsoft Operations Management Suite (OMS) team and has launched the new OMS Team blog. He has also spoken at TechEd and at the Microsoft internal TechReady conferences. He was the instigator for the popular PowerShell Saturday community conferences. He has written more than a 15 books including 12 on Windows scripting that were published by Microsoft Press. He has also contributed to nearly a dozen other books. His newest book by Microsoft Press is Windows PowerShell Step by Step 3rd edition.  
       <br>
-      Ed holds more than 20 industry certifications, including Microsoft Certified Systems Engineer (MCSE) and Certified Information Systems Security Professional (CISSP). Prior to coming to work for Microsoft, he was a senior consultant for a Microsoft Gold Certified Partner where he specialized in Active Directory design and Exchange implementation. In his spare time he is writing a mystery novel tentatively titled Murder on Deck. For more about Ed you can go to http://ewblog.edwilson.com/ewblog/ "
-      
+      Ed holds more than 20 industry certifications, including Microsoft Certified Systems Engineer (MCSE) and Certified Information Systems Security Professional (CISSP). Prior to coming to work for Microsoft, he was a senior consultant for a Microsoft Gold Certified Partner where he specialized in Active Directory design and Exchange implementation. In his spare time he is writing a mystery novel tentatively titled Murder on Deck. For more about Ed you can go to http://ewblog.edwilson.com/ewblog/ "     
   - name: "Jeff Wouters"
     img: "/img/JeffWouters400.jpg"
     twitterurl: "https://twitter.com/JeffWouters"
@@ -54,8 +53,7 @@ speakers:
     # blogname: "MyBlog5"
     bio:
       "IT Consultant for PowerShell, Automation and System Center at Orange Networks"
-      
-  - name: "you?"
+   - name: "you?"
     img: "/img/GetSpeakerJIT400.png"
    # twitterurl: "https://twitter.com/"
    # twittername: "@speaker6"
