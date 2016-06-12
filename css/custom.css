@@ -66,8 +66,9 @@ section {
   font-size:16px;
   /*font-weight:200*/
 }
-.jumbotron.container h1{
-  color: #fff
+
+.jumbotron h1{
+  color:#fff
 }
 
 @media screen and (min-width: 768px) {
