@@ -82,7 +82,7 @@ section {
 
 @media screen and (min-width: 768px) {
   .footer {
-    height: 920px;
+    height: 1120px;
   }
 
   #wrap {
@@ -97,7 +97,7 @@ section {
 
 @media (min-width: 992px) {
   .footer {
-    height: 760px;
+    height: 960px;
   }
 
   #wrap {
@@ -112,7 +112,7 @@ section {
 
 @media screen and (min-width: 500px) and (max-width: 767px) {
   .footer {
-    height: 980px;
+    height: 1180px;
   }
 
   #wrap {
@@ -123,7 +123,7 @@ section {
 
 @media screen and (max-width: 499px) {
   .footer {
-    height: 1040px;
+    height: 1240px;
   }
 
   #wrap {
