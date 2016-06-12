@@ -9,7 +9,7 @@ en:
   legal: "Legal"
   toggleNavigation: "Toggle navigation"
   footerHeading: "PowerShell Monday Munich"
-  footerText: "This website is maintained by the <a href=\"http://www.powershell-ug.com\">PowerShell User Group Southern Germany</a>."
+  footerText: "This website is maintained by the <a href=\"http://www.powershell-ug.com\">PowerShell User Group Southern Germany</a>.<a href=\"http://www.powershell-ug.com\"><img alt=\"Logo PowerShell Usergroup Southern Germany\" class=\"img-responsive\" src=\"{{ site.baseurl }}/img/powershellug.png\"></a>"
   newsletterText: "Keep up to date. Subscribe to our newsletter."
   newsletterMailText: "Enter your email address"
   subscribe: "Subscribe"
