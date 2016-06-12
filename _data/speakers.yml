@@ -11,7 +11,9 @@ speakers:
     blogurl: "https://blogs.technet.microsoft.com/heyscriptingguy/"
     blogname: "Hey Scripting Guy!"
     bio:
-      "Ed Wilson is the Microsoft Scripting Guy and a well-known scripting expert. He writes the daily Hey Scripting Guy! blog. He is a member of the Microsoft Operations Management Suite (OMS) team and has launched the new OMS Team blog. He has also spoken at TechEd and at the Microsoft internal TechReady conferences. He was the instigator for the popular PowerShell Saturday community conferences. He has written more than a 15 books including 12 on Windows scripting that were published by Microsoft Press. He has also contributed to nearly a dozen other books. His newest book by Microsoft Press is Windows PowerShell Step by Step 3rd edition.  Ed holds more than 20 industry certifications, including Microsoft Certified Systems Engineer (MCSE) and Certified Information Systems Security Professional (CISSP). Prior to coming to work for Microsoft, he was a senior consultant for a Microsoft Gold Certified Partner where he specialized in Active Directory design and Exchange implementation. In his spare time he is writing a mystery novel tentatively titled Murder on Deck. For more about Ed you can go to http://ewblog.edwilson.com/ewblog/ "
+      "Ed Wilson is the Microsoft Scripting Guy and a well-known scripting expert. He writes the daily Hey Scripting Guy! blog. He is a member of the Microsoft Operations Management Suite (OMS) team and has launched the new OMS Team blog. He has also spoken at TechEd and at the Microsoft internal TechReady conferences. He was the instigator for the popular PowerShell Saturday community conferences. He has written more than a 15 books including 12 on Windows scripting that were published by Microsoft Press. He has also contributed to nearly a dozen other books. His newest book by Microsoft Press is Windows PowerShell Step by Step 3rd edition.  
+      <br>
+      Ed holds more than 20 industry certifications, including Microsoft Certified Systems Engineer (MCSE) and Certified Information Systems Security Professional (CISSP). Prior to coming to work for Microsoft, he was a senior consultant for a Microsoft Gold Certified Partner where he specialized in Active Directory design and Exchange implementation. In his spare time he is writing a mystery novel tentatively titled Murder on Deck. For more about Ed you can go to http://ewblog.edwilson.com/ewblog/ "
       
   - name: "Jeff Wouters"
     img: "/img/JeffWouters.jpg"
@@ -28,7 +30,11 @@ speakers:
     blogurl: "https://sqldbawithabeard.com/"
     blogname: "SQLDBAwighabeard"
     bio:
-      "The best beard in PowerShell! Oh, and he knows some SQL too ;)"
+      "Rob is a SQL Server DBA with a passion for Powershell, Azure, Automation, and SQL (PaaS geddit?). He has volunteered and spoken at SQL community events through the UK and Europe and is a member of the committee that organises SQL Saturday Exeter. He is a proud supporter of the SQL and Powershell communities. 
+      <br>
+      He relishes sharing and learning and can be found doing both via Twitter and his blog. He spends most of his time looking at a screen and loves to solve problems. He knows that looking at a screen so much is bad for him because his wife tells him so. Thus, you can find him on the cricket field in the summer and flying a drone in the winter. 
+      <br>
+      He has a fabulous beard."
   - name: "Amanda Debler"
     img: "/img/AmandaDebler.jpg" 
     twitterurl: "https://twitter.com/texmandie"
