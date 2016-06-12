@@ -44,13 +44,13 @@ speakers:
     bio:
       "Skype for Business admin who has spoken at PowerShell usergroup events and PowerShell Summit Europe 2015. Very active member of the PowerShell User Group Southern Germany :) "
   - name: "Andreas Patt"
-    img: "http://lorempixel.com/400/400/people/1"
+    img: "/img/AndreasPatt.jpg"
     twitterurl: "https://twitter.com/andreas_patt"
     twittername: "@andreas_patt"
     # blogurl: "http://google.com"
     # blogname: "MyBlog5"
     bio:
-      "IT Consultant for PowerShell, automation and System Center"
+      "IT Consultant for PowerShell, Automation and System Center at Orange Networks"
       
   - name: "you?"
     img: "http://lorempixel.com/400/400/people/3"
