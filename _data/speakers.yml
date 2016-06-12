@@ -53,7 +53,7 @@ speakers:
     # blogname: "MyBlog5"
     bio:
       "IT Consultant for PowerShell, Automation and System Center at Orange Networks"
-   - name: "you?"
+  - name: "you?"
     img: "/img/GetSpeakerJIT400.png"
    # twitterurl: "https://twitter.com/"
    # twittername: "@speaker6"
