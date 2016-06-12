@@ -58,11 +58,16 @@ section {
 .jumbotron {
   text-align: center;
   background-color: #4091c4;
+
+  
 }
 
 .jumbotron p{
   font-size:16px;
   /*font-weight:200*/
+}
+.jumbotron container h1{
+  color: #fff
 }
 
 @media screen and (min-width: 768px) {

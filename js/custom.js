@@ -41,7 +41,7 @@ $(document).ready(function(){
 var map;
 
 function initialize() {
-      var location = {lat: 48.1403566, lng: 11.5564755};
+      var location = {lat: 48.1430737, lng: 11.5395662};
 
       var mapOptions = {
             zoom: 17,
@@ -52,7 +52,7 @@ function initialize() {
 
       var map = new google.maps.Map(document.getElementById('venue-map'), mapOptions);
 
-      var contentString = '<h2>Munich Central Station (München Hbf)</h2><p>Bayerstraße 10A<br>80335 München<br>Germany</p><p>+49 89 123456</p><p><a href="http://www.hcc.de/">hcc.de</a></p><p><a href="https://www.google.de/maps/place/M%C3%BCnchen+Hbf/@48.1403566,11.5564755,17z/data=!3m1!4b1!4m5!3m4!1s0x479e75feaa5b4f69:0x7ac27d280929b04b!8m2!3d48.1403566!4d11.5586695?hl=en">Directions</a></p>'
+      var contentString = '<h2>acentrix GmbH</h2><p>Erika-Mann Str. 31<br>80636 München<br>Germany</p><p><a href="http://acentrix.de">acentrix.de</a></p><p><a href="https://www.google.de/maps/place/acentrix+GmbH/@48.1430737,11.5395662,17z/data=!3m1!4b1!4m5!3m4!1s0x479e761c82d953cf:0x71c3d02f54d7c5f5!8m2!3d48.1430737!4d11.5417602?hl=en">Directions</a></p>'
 
       var infowindow = new google.maps.InfoWindow({
             content: contentString
@@ -62,7 +62,7 @@ function initialize() {
             position: location,
             map: map,
             animation: google.maps.Animation.DROP,
-            title: 'München Hbf'
+            title: 'acentrix GmbH'
       });
 
       marker.addListener('click', function() {
