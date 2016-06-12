@@ -53,11 +53,15 @@ speakers:
       "IT Consultant for PowerShell, Automation and System Center at Orange Networks"
       
   - name: "you?"
-    img: "http://lorempixel.com/400/400/people/3"
+    img: "/img/GetSpeaker.png"
    # twitterurl: "https://twitter.com/"
    # twittername: "@speaker6"
     #blogurl: "http://google.com"
     #blogname: "MyBlog6"
-    #bio:
-     # en: "Speaker bio and other stuff. In English"
-     # de: "Speaker bio and other stuff. In German"
+    bio:
+      "You want to be part of PowerShell monday? You know and use PowerShell JEA and JIT well and want to hold a talk about it? Then drop us an e-mail at <a href=\"mailto:info@powershell-ug.com\">info_at_powershell-ug.com</a> describing yourself and your 45 minute session. Submit your session until June 26th 2016.
+      <br>
+      We will go through the session proposals and look which session fit´s best into PowerShell Monday Munich 2016.
+      <br>
+      Don´t be afraid if this would be your first talk, we are open for first time speakers :)"
+           # de: "Speaker bio and other stuff. In German"
