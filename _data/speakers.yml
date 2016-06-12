@@ -24,7 +24,8 @@ speakers:
       "Back in 2007 I’ve started working in IT. Between then and now I’ve worked at a variety of companies such as a system integrator, retail company (fashion), consultancy firm and software vendor.
       Then, in 2011 I’ve made the big step and started my own company, Methos IT, where I specialize in Microsoft System Center, Microsoft Hyper-V, Microsoft Windows clustering, Citrix XenApp, Citrix Provisioning Server, Citrix XenDesktop and Citrix XenServer.
       Since I’m not the first person with this focus area, I wanted to make myself as unique as possible in this field, so I added my two passions to this: High Availability and PowerShell.
-      And just to be clear: I’m crazy about PowerShell… the ease of which you can accomplish tasks with it and the power (especially the power…) you can gain on your environment by utilizing the shell is something I love and find truly amazing."
+      And just to be clear: I’m crazy about PowerShell… the ease of which you can accomplish tasks with it and the power (especially the power…) you can gain on your environment by utilizing the shell is something I love and find truly amazing.
+      <br><br><br><br>"
   - name: "Rob Sewell"
     img: "/img/RobSewell400.jpg" 
     twitterurl: "https://twitter.com/sqldbawithbeard"
