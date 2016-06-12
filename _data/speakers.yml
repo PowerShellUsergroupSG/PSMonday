@@ -5,7 +5,7 @@ col_xs: 12
 
 speakers:
   - name: "The Scripting Guy Ed Wilson"
-    img: "/img/EdWilson300.jpg"
+    img: "/img/EdWilson400.jpg"
     twitterurl: "https://twitter.com/ScriptingGuys"
     twittername: "@ScriptingGuys"
     blogurl: "https://blogs.technet.microsoft.com/heyscriptingguy/"
@@ -16,7 +16,7 @@ speakers:
       Ed holds more than 20 industry certifications, including Microsoft Certified Systems Engineer (MCSE) and Certified Information Systems Security Professional (CISSP). Prior to coming to work for Microsoft, he was a senior consultant for a Microsoft Gold Certified Partner where he specialized in Active Directory design and Exchange implementation. In his spare time he is writing a mystery novel tentatively titled Murder on Deck. For more about Ed you can go to http://ewblog.edwilson.com/ewblog/ "
       
   - name: "Jeff Wouters"
-    img: "/img/JeffWouters300.jpg"
+    img: "/img/JeffWouters400.jpg"
     twitterurl: "https://twitter.com/JeffWouters"
     twittername: "@JeffWouters"
     blogurl: "http://www.jeffwouters.nl "
@@ -24,7 +24,7 @@ speakers:
     bio:
       "Jeff is great :)"
   - name: "Rob Sewell"
-    img: "/img/RobSewell300.jpg" 
+    img: "/img/RobSewell400.jpg" 
     twitterurl: "https://twitter.com/sqldbawithbeard"
     twittername: "@sqldbawithbeard"
     blogurl: "https://sqldbawithabeard.com/"
@@ -36,7 +36,7 @@ speakers:
       <br>
       He has a fabulous beard."
   - name: "Amanda Debler"
-    img: "/img/AmandaDebler300.jpg" 
+    img: "/img/AmandaDebler400.jpg" 
     twitterurl: "https://twitter.com/texmandie"
     twittername: "@texmandie"
     blogurl: "https://mandie.net/"
@@ -44,7 +44,7 @@ speakers:
     bio:
       "Skype for Business admin who has spoken at PowerShell usergroup events and PowerShell Summit Europe 2015. Very active member of the PowerShell User Group Southern Germany :) "
   - name: "Andreas Patt"
-    img: "/img/AndreasPatt300.jpg"
+    img: "/img/AndreasPatt400.jpg"
     twitterurl: "https://twitter.com/andreas_patt"
     twittername: "@andreas_patt"
     # blogurl: "http://google.com"
@@ -53,7 +53,7 @@ speakers:
       "IT Consultant for PowerShell, Automation and System Center at Orange Networks"
       
   - name: "you?"
-    img: "/img/GetSpeakerJIT300.png"
+    img: "/img/GetSpeakerJIT400.png"
    # twitterurl: "https://twitter.com/"
    # twittername: "@speaker6"
     #blogurl: "http://google.com"
