@@ -71,6 +71,10 @@ section {
   color:#fff
 }
 
+.jumbotron h2{
+  color:#a1a1a1
+}
+
 @media screen and (min-width: 768px) {
   .footer {
     height: 520px;
