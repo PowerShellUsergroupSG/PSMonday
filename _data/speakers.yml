@@ -45,8 +45,10 @@ speakers:
     blogurl: "https://mandie.net/"
     blogname: "Mandie´s Memos"
     bio:
-      "Skype for Business admin who has spoken at PowerShell usergroup events and PowerShell Summit Europe 2015. Very active member of the PowerShell User Group Southern Germany :) 
-      <br><br><br><br>"
+      "Amanda is a Skype for Business admin who has spoken at PowerShell usergroup events and PowerShell Summit Europe 2015. She's a very active member of the PowerShell User Group Southern Germany :) 
+      <br>
+      When not staring at SIP traces or figuring out how to do less manual labor to manage her company's Unified Communications platform, she's skiing, biking or remodeling her house. 
+      <br><br><br>"
   - name: "Andreas Patt"
     img: "/img/AndreasPatt400.jpg"
     twitterurl: "https://twitter.com/andreas_patt"
@@ -62,9 +64,9 @@ speakers:
     #blogurl: "http://google.com"
     #blogname: "MyBlog6"
     bio:
-      "You want to be part of PowerShell monday? You know and use PowerShell JEA and JIT well and want to hold a talk about it? Then drop us an e-mail at <a href=\"mailto:info@powershell-ug.com\">info_at_powershell-ug.com</a> describing yourself and your 45 minute session. Submit your session until June 26th 2016.
+      "You want to be part of the first PowerShell Monday in Germany? You know and use PowerShell JEA and JIT well and want to hold a talk about it? Then drop us an e-mail at <a href=\"mailto:info@powershell-ug.com\">info_at_powershell-ug.com</a> describing yourself and your 45 minute session. Submit your session by June 26th 2016.
       <br>
-      We will go through the session proposals and look which session fit´s best into PowerShell Monday Munich 2016.
+      We will go through the session proposals and look which session fits best into PowerShell Monday Munich 2016.
       <br>
-      Don´t be afraid if this would be your first talk, we are open for first time speakers :)"
+      Don't be afraid if this would be your first talk; we are open for first-time speakers and are happy to provide advice on making your talk a success :)"
            # de: "Speaker bio and other stuff. In German"
