@@ -57,16 +57,13 @@ speakers:
     # blogname: "MyBlog5"
     bio:
       "IT Consultant for PowerShell, Automation and System Center at Orange Networks"
-  - name: "you?"
-    img: "/img/GetSpeakerJIT400.png"
-   # twitterurl: "https://twitter.com/"
-   # twittername: "@speaker6"
-    #blogurl: "http://google.com"
+  - name: "Mathias Jessen"
+    img: "/img/MathiasJessen400.jpg"
+   # twitterurl: "https://twitter.com/IISResetMe"
+   # twittername: "@IISResetMe"
+    #blogurl: "http://blog.iisreset.me"
     #blogname: "MyBlog6"
     bio:
-      "You want to be part of the first PowerShell Monday in Germany? You know and use PowerShell JEA and JIT well and want to hold a talk about it? Then drop us an e-mail at <a href=\"mailto:info@powershell-ug.com\">info_at_powershell-ug.com</a> describing yourself and your 45 minute session. Submit your session by June 26th 2016.
-      <br>
-      We will go through the session proposals and look which session fits best into PowerShell Monday Munich 2016.
-      <br>
-      Don't be afraid if this would be your first talk; we are open for first-time speakers and are happy to provide advice on making your talk a success :)"
+      "When awake, Mathias works with Information Security, but dreams about PowerShell operators and Active Directory replication when sound asleep. 
+      Always interested in: high-level discussions about security, system architecture and language design; and deep-founded disagreements over PowerShell feature implementations :-)"
            # de: "Speaker bio and other stuff. In German"
