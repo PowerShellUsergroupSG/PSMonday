@@ -47,7 +47,7 @@ speakers:
     bio:
       "Amanda is a Skype for Business admin who has spoken at PowerShell usergroup events and PowerShell Summit Europe 2015. She's a very active member of the PowerShell User Group Southern Germany :) 
       <br>
-      When not staring at SIP traces or figuring out how to do less manual labor to manage her company's Unified Communications platform, she's skiing, biking or remodeling her house. <br><br><br><br><br>
+      When not staring at SIP traces or figuring out how to do less manual labor to manage her company's Unified Communications platform, she's skiing, biking or remodeling her house. <br><br><br><br><br><br><br><br>
       "
   - name: "Andreas Patt"
     img: "/img/AndreasPatt400.jpg"
@@ -56,7 +56,7 @@ speakers:
     # blogurl: "http://google.com"
     # blogname: "MyBlog5"
     bio:
-      "IT Consultant for PowerShell, Automation and System Center at Orange Networks <br><br><br><br><br>"
+      "IT Consultant for PowerShell, Automation and System Center at Orange Networks <br><br><br><br><br><br><br><br>"
   - name: "Mathias Jessen"
     img: "/img/MathiasJessen400.jpg"
     twitterurl: "https://twitter.com/IISResetMe"
