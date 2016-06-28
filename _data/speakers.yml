@@ -61,8 +61,8 @@ speakers:
     img: "/img/MathiasJessen400.jpg"
    # twitterurl: "https://twitter.com/IISResetMe"
    # twittername: "@IISResetMe"
-    #blogurl: "http://blog.iisreset.me"
-    #blogname: "MyBlog6"
+    blogurl: "http://blog.iisreset.me"
+    blogname: "graceful is noforce"
     bio:
       "When awake, Mathias works with Information Security, but dreams about PowerShell operators and Active Directory replication when sound asleep. 
       Always interested in: high-level discussions about security, system architecture and language design; and deep-founded disagreements over PowerShell feature implementations :-)"
