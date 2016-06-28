@@ -56,7 +56,7 @@ speakers:
     # blogurl: "http://google.com"
     # blogname: "MyBlog5"
     bio:
-      "IT Consultant for PowerShell, Automation and System Center at Orange Networks"
+      "IT Consultant for PowerShell, Automation and System Center at Orange Networks. <br><br><br><br><br><br><br><br><br><br><br>"
   - name: "Mathias Jessen"
     img: "/img/MathiasJessen400.jpg"
     twitterurl: "https://twitter.com/IISResetMe"
