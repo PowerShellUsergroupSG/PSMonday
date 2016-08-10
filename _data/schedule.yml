@@ -7,106 +7,29 @@ days:
     id: day1
     timeSlots:
       -
-        time: "09:00 - 10:30"
+        time: "13:00 - 13:30"
         tracks:
           -
             description:
               de: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about his motifs behind the features and how they unfold Jeffreys vision of 'Monadology' that he borrowed from the great philosopher Leibniz. This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining conference and the specialty talks that follow."
               en: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about his motifs behind the features and how they unfold Jeffreys vision of 'Monadology' that he borrowed from the great philosopher Leibniz. This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining conference and the specialty talks that follow."
             language: English
-            name: "Keynote - 10 Years with PowerShell:<br>An evolutionary journey in the light of Leibniz and Monadology"
+            name: "Registration and Welcome"
             span: true
             spanLength: 2
-            speaker: "Dr. Tobias Weltner & Jeffrey Snover"
+            speaker: "Christian Lehrer & Amanda Debler"
       -
-        time: "10:45 - 11:45"
+        time: "13:30 - 14:30"
         tracks:
           -
             description:
-              de: "In this session, we’ll go beyond the GUI and look into the advanced features for debugging PowerShell including remote debugging and runspaces. There’s a lot more to debugging than F9!"
-              en: "In this session, we’ll go beyond the GUI and look into the advanced features for debugging PowerShell including remote debugging and runspaces. There’s a lot more to debugging than F9!"
+              de: "Would you drive an untested car? Would you take a medication that hadn't been tested? Then why use untested PowerShell code?! Are you really sure that your code does what it's supposed to? This session will give you a quick introduction to Pester, PowerShell's testing framework. It tells you why testing is important, why you should do it, and how it can make your life easier. This session uses real-life examples and can be your start to better and more reliable PowerShell code."
+              en: "Would you drive an untested car? Would you take a medication that hadn't been tested? Then why use untested PowerShell code?! Are you really sure that your code does what it's supposed to? This session will give you a quick introduction to Pester, PowerShell's testing framework. It tells you why testing is important, why you should do it, and how it can make your life easier. This session uses real-life examples and can be your start to better and more reliable PowerShell code."
             language: English
-            name: "Debugging Deep Dive"
-            speaker: "Bruce Payette"
-          -
-            description:
-              de: "Bisher war es doch recht umständlich, objektorientiert in PowerShell-Skripte zu programmieren. In PowerShell 5.0 gibt es nun endlich Klassen. Der Vortrag erläutert die Konzepte der PowerShell-Klassen (Attribute, Methoden, Konstruktoren, Statische Mitglieder und zeigt die praktischen Einsatzgebiete der PowerShell-Klassen auf."
-              en: "Bisher war es doch recht umständlich, objektorientiert in PowerShell-Skripte zu programmieren. In PowerShell 5.0 gibt es nun endlich Klassen. Der Vortrag erläutert die Konzepte der PowerShell-Klassen (Attribute, Methoden, Konstruktoren, Statische Mitglieder und zeigt die praktischen Einsatzgebiete der PowerShell-Klassen auf."
-            language: German
-            name: "Objektorientiertes Programmieren mit der PowerShell 5.0"
-            speaker: "Dr. Holger Schwichtenberg"
-      -
-        time: "12:00 - 13:00"
-        tracks:
-          -
-            description:
-              de: Lunch
-              en: Lunch
-            language: ""
-            name: Lunch
-            span: true
-            spanLength: 2
-            speaker: ""
-      -
-        time: "13:00 - 14:00"
-        tracks:
-          -
-            description:
-              de: "Recent intrusion into the networks of organizations like Office of Personnel Management, Sony, JPMorgan Chase, and British Airways have shown that the question isn’t if your organization will be targeted, but when. With these attacks and many others in recent years, incident response teams have had to rapidly change tactics from the image-and-forget methodology to live box forensics and containment.
-              During these engagements, forensic analysts must actively track and monitor an adversary in their network while preventing the adversary from recognizing detection but most tools are not up to the job.
-              PowerShell brings the flexibility and in-memory nature to defenders to tackle live threats.
-              In this talk, I will cover how my project, PowerForensics, can provide the Digital Forensics/Incident Response community with an all in one toolset for attack response and investigation. By leveraging PowerShell’s access to the Windows API and .NET framework, PowerForensics provides investigators with a forensically sound “live”
-              investigation platform without the need to image the hard drive. I’ll cover the background and overview of PowerForensics, including how its various capabilities can facilitate the investigation of advanced actors at scale. Finally, I’ll cap off with a complex demo, showing how PowerForensics can help blue teams investigate the real attacks they’re now facing."
-              en: "Recent intrusion into the networks of organizations like Office of Personnel Management, Sony, JPMorgan Chase, and British Airways have shown that the question isn’t if your organization will be targeted, but when. With these attacks and many others in recent years, incident response teams have had to rapidly change tactics from the image-and-forget methodology to live box forensics and containment.
-              During these engagements, forensic analysts must actively track and monitor an adversary in their network while preventing the adversary from recognizing detection but most tools are not up to the job.
-              PowerShell brings the flexibility and in-memory nature to defenders to tackle live threats.
-              In this talk, I will cover how my project, PowerForensics, can provide the Digital Forensics/Incident Response community with an all in one toolset for attack response and investigation. By leveraging PowerShell’s access to the Windows API and .NET framework, PowerForensics provides investigators with a forensically sound “live”
-              investigation platform without the need to image the hard drive. I’ll cover the background and overview of PowerForensics, including how its various capabilities can facilitate the investigation of advanced actors at scale. Finally, I’ll cap off with a complex demo, showing how PowerForensics can help blue teams investigate the real attacks they’re now facing."
-            language: English
-            name: "Old Dog, New Tricks: Forensics With PowerShell"
-            speaker: "Jared Atkinson"
-          -
-            description:
-              de: "In dieser Session zeigt David, wie sich moderne grafische WPF-Benutzeroberflächen in nur wenigen Zeilen Code direkt mit PowerShell erstellen lassen. Dabei wird gezeigt, wie man XAML verwendet, Ressourcen wie Bilder oder Icons lädt, und auf Events wie Button-Klicks reagiert. Ein besonderer Schwerpunkt liegt hier auf sogenannten Bindings, die sehr viel effizienteren PowerShell-Code ermöglichen."
-              en: "In dieser Session zeigt David, wie sich moderne grafische WPF-Benutzeroberflächen in nur wenigen Zeilen Code direkt mit PowerShell erstellen lassen. Dabei wird gezeigt, wie man XAML verwendet, Ressourcen wie Bilder oder Icons lädt, und auf Events wie Button-Klicks reagiert. Ein besonderer Schwerpunkt liegt hier auf sogenannten Bindings, die sehr viel effizienteren PowerShell-Code ermöglichen."
-            language: German
-            name: "Deep Dive Powershell GUIs with XAML"
-            speaker: "David das Neves"
-      -
-        time:  "14:15 - 15:15"
-        tracks:
-          -
-            description:
-              de: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
-              en: "Over the past few years, attackers have started to realize that the same aspects of PowerShell that make it an excellent Windows automation solution also make it an ideal attack platform. The Empire project aims to bring together various offensive projects into a fully-functional malware agent (written purely in PowerShell) that can be used offensively by red teams and used to train blue teams to defend against these types of attacks. Empire implements the ability to control remote machines without needing powershell.exe and includes nearly all the capabilities of a traditional remote access tool (RAT)- credential stealing, keylogging, screenshoting, etc. but allows for faster development and extensibility than traditional compiled malware. We’ll also cover the forensic disk and memory footprints of the agent, and how how teams can detect and stop offensive toolsets like Empire."
-            language: English
-            name: "Building an Empire with PowerShell"
-            speaker: "Will Schroeder"
-          -
-            description:
-              de: "In 2016 wird Microsoft mit dem 'Nano Server' eine minimale Installationsoption anbieten, die ausschließlich remote administrieren lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh- und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation, untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
-              en: "In 2016 wird Microsoft mit dem 'Nano Server' eine minimale Installationsoption anbieten, die ausschließlich remote administrieren lassen wird. Die PowerShell, auf dem Nano Server selbst in einer speziellen CoreCLR-Variante (.NET Core runtime) vorhanden, wird zum Dreh- und Angelpunkt der (Remote-) Verwaltung. In der Session werfen wir einen Blick auf den Lifecycle einer Nano Server-Installation, untersuchen die Auswirkungen der funktional beschränkten CoreCLR und stellen typische Automatisierungsbeispiele vor."
-            language: German
-            name: "Administration des NANO-Servers"
-            speaker: "Thorsten Butz"
+            name: "Introduction to Pester"
+            speaker: "Andreas Patt"
 
-      -
-        time: "15:30 - 16:30"
-        tracks:
-          -
-            description:
-              de: "This session will be an intro to DSC pull server/pull server as an Azure service, how to onboard nodes, simple example to show full workflow, complex example to include advanced features"
-              en: "This session will be an intro to DSC pull server/pull server as an Azure service, how to onboard nodes, simple example to show full workflow, complex example to include advanced features"
-            language: English
-            name: "Azure Automation DSC"
-            speaker: Ben Gelens & Aleksandar Nikolic
-          -
-            description:
-              de: "Azure Automation ist der neue Ansatz von Microsoft, mit Hilfe von Powershell Workflows regelmässig Wiederkehrende Aufgaben in großen Umgebungen zu automatisieren. Es werden sogennante Runbooks erstellt, die dann zeit- oder Ereignisgesteuert gestartet werden können. Der grafische Runbook Editor macht das Erstellen dabei auch für den Laien einfach. In dieser Session stellt Holger Voges die Grundlagen der Runbooks vor und zeigt, was Sie mit Azure Automation erreichen können."
-              en: "Azure Automation ist der neue Ansatz von Microsoft, mit Hilfe von Powershell Workflows regelmässig Wiederkehrende Aufgaben in großen Umgebungen zu automatisieren. Es werden sogennante Runbooks erstellt, die dann zeit- oder Ereignisgesteuert gestartet werden können. Der grafische Runbook Editor macht das Erstellen dabei auch für den Laien einfach. In dieser Session stellt Holger Voges die Grundlagen der Runbooks vor und zeigt, was Sie mit Azure Automation erreichen können."
-            language: German
-            name: "Automatisierung mit Azure Automation, Runbooks und Workflows"
-            speaker: "Holger Voges"
+
       -
         time: "16:45 - 17:45"
         tracks:
@@ -144,52 +67,9 @@ days:
             span: true
             spanLength: 2
             speaker: "All Attendees & Speakers"
-    title:
-      de: "Tag 1"
-      en: "Day 1"
-    trackHeaders:
-      -
-        title:
-          de: Zeit
-          en: Time
-      -
-        title:
-          de: "Track 1 (English)"
-          en: "Track 1 (English)"
-      -
-        title:
-          de: "Track 2 (German)"
-          en: "Track 2 (German)"
-  -
+
    
-    title:
-      de: "Tag 3"
-      en: "Day 3"
-    trackHeaders:
-      -
-        title:
-          de: Zeit
-          en: Time
-      -
-        title:
-          de: "Track 1 (GER)"
-          en: "Track 1 (GER)"
-      -
-        title:
-          de: "Track 2 (ENG)"
-          en: "Track 2 (ENG)"
-      -
-        title:
-          de: "Track 3 (ENG)"
-          en: "Track 3 (ENG)"
-      -
-        title:
-          de: "Track 4 (ENG)"
-          en: "Track 4 (ENG)"
-      -
-        title:
-          de: "Breakout Session"
-          en: "Breakout Session"
+
 de:
   schedule: Agenda
 en:
