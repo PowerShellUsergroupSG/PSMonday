@@ -29,15 +29,15 @@ layout: scaffolding
 	{% include {{page.lang}}/callforspeakers.html %}
 {% endif %}
 
+<!-- Schedule -->
+{% if site.data.features.includeSchedule %}
+	{% include schedule.html %}
+{% endif %}
+
 <!-- Speakers -->
 {% if site.data.features.includeSpeakers %}
 	<!--{% include {{page.lang}}/speakers.html %}-->
     {% include speakers.html %}
-{% endif %}
-
-<!-- Schedule -->
-{% if site.data.features.includeSchedule %}
-	{% include schedule.html %}
 {% endif %}
 
 <!-- Register -->
