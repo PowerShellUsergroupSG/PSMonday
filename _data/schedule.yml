@@ -15,8 +15,6 @@ days:
               en: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about his motifs behind the features and how they unfold Jeffreys vision of 'Monadology' that he borrowed from the great philosopher Leibniz. This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining conference and the specialty talks that follow."
             language: English
             name: "Registration and Welcome"
-            span: true
-            spanLength: 2
             speaker: "Christian Lehrer & Amanda Debler"
       -
         time: "13:30 - 14:30"
@@ -29,44 +27,85 @@ days:
             name: "Introduction to Pester"
             speaker: "Andreas Patt"
 
+      -
+        time: "14:30 - 15:30"
+        tracks:
+          -
+            description:
+              de: "What does Office 365 have in common with Rosetta and New Horizons? We will see how using PowerShell to administer Skype for Business Online and Exchange Online is exactly like on-prem in some ways, but very different in a few critical ways."
+              en: "What does Office 365 have in common with Rosetta and New Horizons? We will see how using PowerShell to administer Skype for Business Online and Exchange Online is exactly like on-prem in some ways, but very different in a few critical ways."
+            language: English
+            name: "Office 365 Administration"
+            speaker: "Amanda Debler"
 
       -
-        time: "16:45 - 17:45"
+        time: "15:30 - 16:00"
         tracks:
           -
             description:
-              de: "Windows Server 2016 introduces a new edition of Powershell: PowerShell Core.  PowerShell Core is a reboot of the PowerShell ecosystem based upon .Net Core.  This session explains why we are doing PowerShell Core and what it means to the future of PowerShell."
-              en: "Windows Server 2016 introduces a new edition of Powershell: PowerShell Core.  PowerShell Core is a reboot of the PowerShell ecosystem based upon .Net Core.  This session explains why we are doing PowerShell Core and what it means to the future of PowerShell."
+              de: "Our gracious sponsors are providing a variety of snacks, sodas and coffee, and Amanda will bring her American-style chocolate chip cookies."
+              en: "Our gracious sponsors are providing a variety of snacks, sodas and coffee, and Amanda will bring her American-style chocolate chip cookies."
             language: English
-            name: "PowerShell Core – why and what?"
-            speaker: "Jeffery Snover"
-            span: true
-            spanLength: 2
+            name: "Coffee and Snacks"
+            speaker: "Everyone!"
+
 
       -
-        time: "17:45 - 18:15"
+        time: "16:00 - 17:00"
         tracks:
           -
             description:
-              de: "Großes Speaker-Panel mit allen anwesenden Speakern. In dieser gemeinsamen Session wird das Fazit des Tages gezogen und der Dialog mit den Delegierten gesucht. Fragen, Anregungen und Feedback, auch für die kommenden beiden Konferenztage, finden hier Raum. Anschließend gehen wir gemeinsam zum Abendevent im Zoo Hannover: in Yukon Bay wird der Tag in einer nachgebildeten Goldgräberstadt ausklingen, natürlich mit Eisbär-Fütterung und Fütterung der Delegierten mit Speis und Trank."
-              en: "combined session: Speakers Panel with all speakers (Beethoven-Saal)"
+              de: "Mathias will tell us what JIT and JEA are, and what they mean for you, the administrator with something to protect... from other administrators."
+              en: "Mathias will tell us what JIT and JEA are, and what they mean for you, the administrator with something to protect... from other administrators."
             language: English
-            name: "Combined Session"
-            span: true
-            spanLength: 2
-            speaker: "All Speakers"
+            name: "JEA/JIT"
+            speaker: "Mathias Jenssen"
+
+
+
       -
-        time: "18:45 - 01:00"
+        time: "17:00 - 18:00"
         tracks:
           -
             description:
-              de: "Evening Event at Yukon Bay (inkl. Abendessen)"
-              en: "Evening Event at Yukon Bay (incl. dinner)"
-            language: ~
-            name: "Evening Event"
-            span: true
-            spanLength: 2
-            speaker: "All Attendees & Speakers"
+              de: "Every DBA will have a collection of scripts that they want to have on all of their instances. Maintenance scripts, troubleshooting scripts, post-installation scripts - with a dozen instances, these may be easy to manage manually. But when your number of instances increases, you still want that consistency and when you need to deploy an upgrade to the scripts, you want to test it prior to releasing to production. In this session, I will show how I tackle this for hundreds or thousands of instances using my DBA database and PowerShell."
+              en: "Every DBA will have a collection of scripts that they want to have on all of their instances. Maintenance scripts, troubleshooting scripts, post-installation scripts - with a dozen instances, these may be easy to manage manually. But when your number of instances increases, you still want that consistency and when you need to deploy an upgrade to the scripts, you want to test it prior to releasing to production. In this session, I will show how I tackle this for hundreds or thousands of instances using my DBA database and PowerShell."
+            language: English
+            name: "PowerShell Script Deployment for the Busy DBA"
+            speaker: "Rob Sewell"
+
+      -
+        time: "18:00 - 18:45"
+        tracks:
+          -
+            description:
+              de: "Pizza and salad, courtesy our generous sponsors."
+              en: "Pizza and salad, courtesy our generous sponsors."
+            language: English
+            name: "Dinner"
+            speaker: ""
+
+
+      -
+        time: "18:45 - 19:45"
+        tracks:
+          -
+            description:
+              de: "It's Jeff Wouters - ANYTHING can happen..."
+              en: "It's Jeff Wouters - ANYTHING can happen..."
+            language: English
+            name: "Jeff Wouter's Talk"
+            speaker: "Jeff Wouters"            
+      -
+        time: "19:45 - 20:45"
+        tracks:
+          -
+            description:
+              de: "Both Windows PowerShell 4.0 and 5.0 feature Desired State Configuration as a key strategic feature, but the barrier to entry is a bit high for the harried network administrator. Wouldn't it be great if one could harness the power of DSC in a simple, easy-to-use point-and-click environment? Well, you can, and in this session, Ed Wilson, the Microsoft Scripting Guy, shows you how to harness DSC from within Microsoft's latest way cool product: Operations Management Suite. It is fun, powerful and easy to use."
+              en: "Both Windows PowerShell 4.0 and 5.0 feature Desired State Configuration as a key strategic feature, but the barrier to entry is a bit high for the harried network administrator. Wouldn't it be great if one could harness the power of DSC in a simple, easy-to-use point-and-click environment? Well, you can, and in this session, Ed Wilson, the Microsoft Scripting Guy, shows you how to harness DSC from within Microsoft's latest way cool product: Operations Management Suite. It is fun, powerful and easy to use."
+            language: English
+            name: "Unbelievably Easy DSC Using OMS"
+            speaker: "Ed Wilson"
 
    
 
