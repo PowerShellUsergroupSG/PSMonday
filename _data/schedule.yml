@@ -11,8 +11,8 @@ days:
         tracks:
           -
             description:
-              de: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about his motifs behind the features and how they unfold Jeffreys vision of 'Monadology' that he borrowed from the great philosopher Leibniz. This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining conference and the specialty talks that follow."
-              en: "In this keynote, we take a look at how PowerShell evolved from Version 1 in 2006 to Version 5 today. Tobias highlights and demos the key features introduced in each version and chats with PowerShell inventor, mastermind and Microsoft Technical Fellow Jeffrey Snover about his motifs behind the features and how they unfold Jeffreys vision of 'Monadology' that he borrowed from the great philosopher Leibniz. This keynote will provide you with a clear understanding of how all these PowerShell versions differ, how the features introduced build upon each other and resemble the foundation of many of the new features in PowerShell 5. It is the perfect primer for the remaining conference and the specialty talks that follow."
+              de: "Sign in, grab a coffee, meet people."
+              en: "Sign in, grab a coffee, meet people."
             language: English
             name: "Registration and Welcome"
             speaker: "Christian Lehrer & Amanda Debler"
