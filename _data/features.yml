@@ -7,7 +7,7 @@ includeEveningEvent: false
 includeCallforSpeakers: false
 includeSpeakers: true
 includeSchedule : true
-includeRegister: true
+includeRegister: false
 includeVenue: true
 includeLegal: true
 includeMap: true
