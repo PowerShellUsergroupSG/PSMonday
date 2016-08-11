@@ -41,7 +41,7 @@ $(document).ready(function(){
 var map;
 
 function initialize() {
-      var location = {lat: 48.1430737, lng: 11.5395662};
+      var location = {lat: 48.1862673, lng: 11.5826454};
 
       var mapOptions = {
             zoom: 17,
@@ -52,7 +52,7 @@ function initialize() {
 
       var map = new google.maps.Map(document.getElementById('venue-map'), mapOptions);
 
-      var contentString = '<h2>acentrix GmbH</h2><p>Erika-Mann Str. 31<br>80636 München<br>Germany</p><p><a href="http://acentrix.de">acentrix.de</a></p><p><a href="https://www.google.de/maps/place/acentrix+GmbH/@48.1430737,11.5395662,17z/data=!3m1!4b1!4m5!3m4!1s0x479e761c82d953cf:0x71c3d02f54d7c5f5!8m2!3d48.1430737!4d11.5417602?hl=en">Directions</a></p>'
+      var contentString = '<h2>acentrix GmbH</h2><p>Ingolstädter Str. 20<br>4. Stock<br>80807 München<br>Germany</p><p><a href="https://www.google.com/maps/place/Ingolst%C3%A4dter+Str.+20,+80807+M%C3%BCnchen,+Deutschland/@48.1862673,11.5826454,17z/data=!3m1!4b1!4m5!3m4!1s0x479e743af953f27d:0xd455f456e0ff80fa!8m2!3d48.1862673!4d11.5848341">Directions</a></p>'
 
       var infowindow = new google.maps.InfoWindow({
             content: contentString
