@@ -91,20 +91,20 @@ days:
         tracks:
           -
             description:
-              de: "Nano Server – Minimalism in Windows Server"
-                  "Nano Server is the next evolution of Windows Server. Where Server Code was still rather large and tough to manage, is this certainly not the case with Nano Server.
+              de: "Nano Server – Minimalism in Windows Server
+                   Nano Server is the next evolution of Windows Server. Where Server Code was still rather large and tough to manage, is this certainly not the case with Nano Server.
                    Compared to a traditional installation of Windows Server there is a different way of managing the thing, but that mainly involves Windows PowerShell and Desired State Configuration.
                    So you should be good, right?
                    Well, let’s just do a session and see if that’s the case. During this time I’ll show you several demo’s to show the difference between it and a full blown Windows Server installation (you know, a server with a (u/lo)ser interface…eeuuhh… whatcha call it? Ow yeah, a GUI).
                    I’l show you the difference both in architecture and usability, both on premise and in Azure."
-              en: "Nano Server – Minimalism in Windows Server"
-                  "Nano Server is the next evolution of Windows Server. Where Server Code was still rather large and tough to manage, is this certainly not the case with Nano Server.
+              en: "Nano Server – Minimalism in Windows Server
+                   Nano Server is the next evolution of Windows Server. Where Server Code was still rather large and tough to manage, is this certainly not the case with Nano Server.
                    Compared to a traditional installation of Windows Server there is a different way of managing the thing, but that mainly involves Windows PowerShell and Desired State Configuration.
                    So you should be good, right?
                    Well, let’s just do a session and see if that’s the case. During this time I’ll show you several demo’s to show the difference between it and a full blown Windows Server installation (you know, a server with a (u/lo)ser interface…eeuuhh… whatcha call it? Ow yeah, a GUI).
                    I’l show you the difference both in architecture and usability, both on premise and in Azure."
             language: English
-            name: "Jeff Wouter's Talk"
+            name: "Nano Server – Minimalism in Windows Server"
             speaker: "Jeff Wouters"            
       -
         time: "19:45 - 20:45"
