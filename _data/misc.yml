@@ -14,7 +14,8 @@ en:
   newsletterMailText: "Enter your email address"
   subscribe: "Subscribe"
   registerNow: "Register now!"
-  extraInfoText: "ATTENTION: Location has changed - now Ingolstädter Str. 20, 80807 München (Schwabing)!<br><br>Can't wait for PowerShell Monday Munich? Check out the stuff from PowerShell Conference EU 2016:<br>Session recordings: <a href=\"https://www.youtube.com/c/powershellconferenceeu\" class=\"alert-link\">YouTube.</a><br>Session materials (slides and demos): <a href=\"https://github.com/psconfeu/2016\" class=\"alert-link\">GitHub</a>."
+  extraInfoText: "ATTENTION: Location has changed - now Ingolstädter Str. 20, 80807 München (Schwabing)!<br><br>Can't wait for PowerShell Monday Munich? Check out the stuff from PowerShell Conference EU 2016:<br>Session recordings: <a href=\"https://www.youtube.com/c/powershellconferenceeu\" class=\"alert-link\">YouTube.</a><br>Session materials (slides and demos): <a href=\"https://github.com/psconfeu/2016\" class=\"alert-link\">GitHub</a>.
+  <br> For contact and to ask for last minute tickets write a mail to powershell-ug@outlook.com"
 
 de:
   map: "Karte"
